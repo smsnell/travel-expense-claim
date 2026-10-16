@@ -1,5 +1,1 @@
-Double check that entire is enabled for this repo
-
----
-
 do a git commit "Entire checkpoint test", and push to main.
