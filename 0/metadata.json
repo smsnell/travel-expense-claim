@@ -1,0 +1,100 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M54FY60KB4M9109JS02T2P76",
+  "session_id": "01a14681-0065-7df3-b331-ffdf97873ed5",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-17T08:34:02.247648567Z",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "save_step_count": 2,
+  "files_touched": [
+    "DESIGN-PLAN.md",
+    "PROJECT-TRACKER.md",
+    "SOURCE-RETRIEVAL.md",
+    "artifacts/discovery/2026-10-16/access-check.json",
+    "artifacts/discovery/2026-10-16/capture-diagnostics.txt",
+    "artifacts/discovery/2026-10-16/receipts-text.json",
+    "artifacts/discovery/2026-10-16/receipts.pdf",
+    "artifacts/discovery/2026-10-16/registers-text.json",
+    "artifacts/discovery/2026-10-16/travel-registers.xlsx",
+    "artifacts/discovery/2026-10-16/workbook-metadata.json",
+    "artifacts/discovery/2026-10-16/workbook-sentinels.json",
+    "artifacts/discovery/2026-10-17/access-check.json",
+    "artifacts/discovery/2026-10-17/capture-pending.json",
+    "artifacts/discovery/2026-10-17/capture-session.json",
+    "artifacts/discovery/2026-10-17/capture-tokens.json",
+    "artifacts/discovery/2026-10-17/claims-initial-text.json",
+    "artifacts/discovery/2026-10-17/claims-initial.pdf",
+    "artifacts/discovery/2026-10-17/claims-updates-text.json",
+    "artifacts/discovery/2026-10-17/claims-updates.pdf",
+    "artifacts/discovery/2026-10-17/policy-manual-copy.md"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6-astra",
+  "turn_id": "ce71f597a1d7",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 344317,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 6162048,
+    "output_tokens": 37598,
+    "api_call_count": 48,
+    "subagent_tokens_complete": true
+  },
+  "session_metrics": {
+    "turn_count": 2
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-17T08:34:02.046738562Z",
+    "agent_lines": 6959,
+    "agent_removed": 0,
+    "human_added": 2124,
+    "human_modified": 86,
+    "human_removed": 0,
+    "total_committed": 9129,
+    "total_lines_changed": 9169,
+    "agent_percentage": 75.89704438870106,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 760,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "AGENTS.md": 19,
+        "REQUIREMENTS.md": 144,
+        "interviews/interview-D-1.md": 597
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 699,
+      "user_lines_removed": 0,
+      "agent_lines_added": 4288,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "interviews/interview-D-2.md": 666,
+        "policy/POL-2026.2.md": 33
+      }
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 1429,
+      "user_lines_removed": 31,
+      "agent_lines_added": 7805,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "DESIGN-PLAN.md": 40,
+        "interviews/interview-D-2.md": 666,
+        "interviews/interview-D-3.md": 690,
+        "policy/POL-2026.2.md": 33
+      },
+      "user_removed_per_file": {
+        "DESIGN-PLAN.md": 31
+      }
+    }
+  ]
+}

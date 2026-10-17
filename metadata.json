@@ -1,0 +1,46 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M54FY60KB4M9109JS02T2P76",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "files_touched": [
+    "DESIGN-PLAN.md",
+    "PROJECT-TRACKER.md",
+    "SOURCE-RETRIEVAL.md",
+    "artifacts/discovery/2026-10-16/access-check.json",
+    "artifacts/discovery/2026-10-16/capture-diagnostics.txt",
+    "artifacts/discovery/2026-10-16/receipts-text.json",
+    "artifacts/discovery/2026-10-16/receipts.pdf",
+    "artifacts/discovery/2026-10-16/registers-text.json",
+    "artifacts/discovery/2026-10-16/travel-registers.xlsx",
+    "artifacts/discovery/2026-10-16/workbook-metadata.json",
+    "artifacts/discovery/2026-10-16/workbook-sentinels.json",
+    "artifacts/discovery/2026-10-17/access-check.json",
+    "artifacts/discovery/2026-10-17/capture-pending.json",
+    "artifacts/discovery/2026-10-17/capture-session.json",
+    "artifacts/discovery/2026-10-17/capture-tokens.json",
+    "artifacts/discovery/2026-10-17/claims-initial-text.json",
+    "artifacts/discovery/2026-10-17/claims-initial.pdf",
+    "artifacts/discovery/2026-10-17/claims-updates-text.json",
+    "artifacts/discovery/2026-10-17/claims-updates.pdf",
+    "artifacts/discovery/2026-10-17/policy-manual-copy.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 344317,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 6162048,
+    "output_tokens": 37598,
+    "api_call_count": 48,
+    "subagent_tokens_complete": true
+  }
+}

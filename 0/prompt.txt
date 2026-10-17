@@ -1,0 +1,56 @@
+Begin Project D with a **design-only discovery and planning pass**. Follow `AGENTS.md` and `REQUIREMENTS.md`; do not duplicate them in the planning documents.
+
+## Discovery
+
+Review the repository, snapshot schema, and original interview exports. Examine the five interview-provided native sources through supported access. Verify usable content and completeness—not merely successful links.
+
+Cross-check the interview, sources, and requirements. Resolve questions from available evidence first, then report remaining unknowns, contradictions, missing content, and questions requiring stakeholder clarification. Do not invent business rules. Check supported session-capture status and flag anything unverified.
+
+## Plan
+
+Create `DESIGN-PLAN.md` with the smallest suitable architecture, implementation sequence, and approximately three acceptance gates:
+1. Connected ordinary path and initial outputs.
+2. Remaining material branches, repair handling, corrections, cancellations, and replay.
+3. Final integrated verification, operational review, and handoff.
+
+Adjust the boundaries to fit the evidence and cover the full assignment. For each gate, specify checks, actual outputs for my inspection, and what requires my acceptance.
+
+Recommend available Astra/Sol models and effort levels for the work, briefly explaining material tradeoffs. Consider Sol for well-defined implementation tasks. Propose parallel delegation only where useful, with separate worktrees, clear ownership, and integration checks.
+
+## Track progress and resources
+
+Create and maintain `PROJECT-TRACKER.md` with current progress, gates, blockers/owners, accepted decisions, evidence references, and resource totals. Keep it concise enough to support resuming work.
+
+Initial owner-provided forecasts:
+- **Time:** 3–4 hours.
+- **Tokens:** 50–70M session tokens; low confidence and potentially substantially lower.
+
+At each substantive progress update or handoff, add the latest work segment’s duration to the cumulative total. Use observed timestamps where available, exclude pauses awaiting my reply, and distinguish elapsed working time from measured active time or estimates.
+
+Record token increments from reliable counters or my supplied measurements; otherwise mark usage unknown. Avoid double-counting cumulative reports or overlapping work. Preserve initial forecasts alongside revised estimates. These are neither spending targets nor permission to omit requirements.
+
+## My four decisions
+
+As sufficient evidence emerges, flag:
+- Incomplete claims versus independent work.
+- Repair-queue organization and partial-response constraints.
+- Revalidation after material corrections.
+- Financial-completion conditions and accepted delivery scope.
+
+Present a recommendation with actual source/subject references, the important tradeoff, and an acceptance check. Pause for my choice before dependent implementation; do not force every choice during initial planning or treat your proposals as my approval. Financial-completion acceptance must follow my inspection of an actual preliminary result. Connect adopted choices to code/run evidence as implementation proceeds.
+
+## Stop for review
+
+This pass is discovery and planning only: no implementation, delegated coding, commits, or pushes. Preserve original evidence and unrelated work.
+
+Finish with a brief plan/gate summary, source-access findings, remaining questions, and time added plus cumulative time/token totals. **Stop for my review.**
+
+---
+
+<send_user_message_question_reply>
+[{"answer":"If you are unable to find them in your planning, Ill have to go back for them, thanks for letting me know","question":"The interview export names the Initial and updates claim binders but omits their URLs. Please provide those two native source URLs if you have them. I’m checking the linked sources for them while continuing discovery.","questionItemId":"[\"request_user_input_async\",\"call_b053da1cae294d91a1ad6f7a7395adbe\",0]"}]
+</send_user_message_question_reply>
+
+---
+
+I went back to the stakeholder and was able to aquire the missing claim binder sources. Check interview-D-2.md it should answer your questions about the missing sources, policy ambiguiuty, and DW-D-2. Inspect the binders, verify you can reach them, and reconcile their evidence with the current plan. Attempt access to the Notion policy again, if you still cannot access it, report that blocker, and access the backup I have provided in the policy folder. We will have to note that as a limitation in our design. Design the skill with assumption of notion access, but provide a method to manually provide it as a file. Also, identify any remaining ambiguities or unresolved issues. Update our DESIGN-PLAN.md and PROJECT-TRACKER.md files in place changing only what new evidence justifies. After that evaluate the readiness of G1 and identify which of my four decisions have sufficient evidence for review. Preserve the interview file, source provenance, existing architecture where justified, and our cumulative time/token tracking. Do not implement, commit, or push yet, just provide a summary of new findings, any outstanding blockers, your recommended next steps, and updated resource totals. Then stop for my review.
