@@ -1,0 +1,28 @@
+{
+  "origin_run_id": "g2-20261017",
+  "mode": "offline-recovery",
+  "implementation_changed": false,
+  "batches": [
+    {
+      "batch_id": "1",
+      "equivalent": true,
+      "changed_fields": []
+    },
+    {
+      "batch_id": "2",
+      "equivalent": true,
+      "changed_fields": []
+    },
+    {
+      "batch_id": "3",
+      "equivalent": true,
+      "changed_fields": []
+    },
+    {
+      "batch_id": "4",
+      "equivalent": false,
+      "comparison_unavailable": "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    }
+  ],
+  "note": "Semantic comparison excludes run identity and chain/source bindings. Original run retained unchanged; actual reconstruction times recorded in executions/."
+}

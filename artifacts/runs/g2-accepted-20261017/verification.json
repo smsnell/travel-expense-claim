@@ -1,0 +1,14 @@
+{
+  "status": "verified",
+  "run_id": "g2-accepted-20261017",
+  "snapshots": 4,
+  "current_claims": 121,
+  "checks": [
+    "public schema + formats",
+    "retained byte hashes",
+    "relative source/predecessor chain",
+    "money/event and issue/decision/request references",
+    "CSV/report/queue consistency"
+  ],
+  "scope": "Structural/semantic integrity; owner acceptance is separate from verification"
+}

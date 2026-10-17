@@ -1,0 +1,6 @@
+{
+  "command": "replay",
+  "run_dir": "/home/mike/travel-expense-claim/artifacts/runs/g2-20261017",
+  "through_batch": 4,
+  "change_reason": "Owner accepted G2; separate gross held entitlement, unknown totals, payable amounts and original unreconciled transfers; retain human authority"
+}

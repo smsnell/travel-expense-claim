@@ -1,4 +1,4 @@
-# Project D design plan — architecture and gates approved; G1 authorized
+# Project D design plan — G2 accepted; G3 final review boundary
 
 The owner approved the Python architecture, three gates and D1–D3 on October 17; G1 implementation is authorized after a planning baseline commit. G1 and D4 are now accepted after owner inspection; G2 is authorized after the G1 milestone commit/push. [AGENTS.md](AGENTS.md), [REQUIREMENTS.md](REQUIREMENTS.md), and [snapshot.schema.json](snapshot.schema.json) remain authoritative; this document records findings, design choices, and acceptance boundaries rather than repeating their contracts. Progress, ownership, and resource accounting live in [PROJECT-TRACKER.md](PROJECT-TRACKER.md).
 
@@ -113,9 +113,9 @@ Use separate worktrees for genuinely independent parallel tasks, based on the co
 
 ## Current boundary
 
-Owner accepted G1 and D4. Commit/push “G1 Complete and Reviewed” after targeted presentation changes, then proceed through G2 and stop for review. Keep native policy access limitations visible; I4 resolves the blanket sequencing blocker. Retrieval responsibilities and reproducibility are specified in [SOURCE-RETRIEVAL.md](SOURCE-RETRIEVAL.md). No gate or financial-completion acceptance is implied by implementation authorization.
+Owner accepted G1 and D4; milestone `2bd09d3` (“G1 Complete and Reviewed”) is pushed. G2 is accepted by the owner. Complete the focused C18/human-authority checks and exposure summary, commit/push “G2 Complete and Accepted”, then perform G3 and stop for final review. Keep native policy access limitations visible; I4 resolves the blanket sequencing blocker. Retrieval responsibilities and reproducibility are specified in [SOURCE-RETRIEVAL.md](SOURCE-RETRIEVAL.md). G3 authorization does not imply final acceptance.
 
-## G1 review evidence — October 17
+## Historical preliminary G1 review evidence — October 17
 
 [Actual preliminary report](artifacts/runs/g1-20261017-0855/report.md), [CSV](artifacts/runs/g1-20261017-0855/claims.csv), [queue](artifacts/runs/g1-20261017-0855/repair-queue.md), [source manifest](artifacts/runs/g1-20261017-0855/sources.json), and [verification](artifacts/runs/g1-20261017-0855/verification.json) are ready for owner inspection. Two complete original batches cover 120 current claims, 100 accepted Finance requests and 200 admitted Finance facts. All 115 source review groups have same-batch ties; I4 removes the blanket timing defect. C01 reconciles EUR100; C02 reconciles EUR540 after its distinct P02 permit reviewed EUR1,100 including director. C114's EUR20 line survives while its claim has unknown entitlement and no payment request. TC122 is separately confirmed with no claim or financial effect.
 
@@ -126,3 +126,13 @@ Implementation retains the agreed architecture and delegation. Primary integrate
 ## Owner acceptance and targeted Operations refinement
 
 G1 and D4 accepted October 17 after report/CSV/queue inspection. Completion requires valid current human approvals, supported entitlement, reconciled payments/refunds, required Finance resolutions and no outstanding issue or Finance obligation. A zero balance alone is insufficient. The full delivery still covers all four batches with unresolved cases explicit. The linked reviewed G1 run prioritizes payable versus held amounts, blockers/owners/actions and supported partial evidence; the full list remains in CSV. Original accepted artifacts remain immutable. G2 extends corrections, scoped partial repairs, Finance and independent cancellations plus resume/replay/recovery under these accepted decisions; no architectural replan is needed.
+
+## G2 implementation evidence
+
+The agreed Python architecture remains. `engine.py` retains policy/authority checks; `workflow.py` adds deterministic batch/revision and original-obligation reconciliation; `run.py` adds resume, offline replay/recovery and implementation/source seals. This division keeps coupled financial rules under primary ownership while Sol supplied isolated lifecycle implementation and independent business/adversarial checks.
+
+[Four-batch report](artifacts/runs/g2-20261017/report.md), [queue/history](artifacts/runs/g2-20261017/repair-queue.md), [coverage](artifacts/runs/g2-20261017/coverage.json) and [verification evidence](artifacts/verification/g2-20261017/README.md) connect D1–D4 to actual results: C114 keeps supported EUR20 with aggregate/payment held; C19r2 resolves only its amount disposition, while r3 provides cancellation scope/current approvals/refund/resolution; C09's unchanged EUR80 replacement travel basis requires fresh authority; C18's late payment stays with its original request and Finance obligation; C20 closes only after the later explicit resolution. C121's pre-acceptance cancellation is distinguished from post-acceptance obligations. All four independent cancellation processes remain visible, including TC122 without a claim. Replay preserves all four semantic states; recovery checks corrupt copied state without altering original evidence.
+
+G2 acceptance remains the checks and inspection boundary above. Unresolved cases are owned outcomes, not omitted scope. Native policy access still returns 404; manual provenance limitations remain explicit. G3 will validate the final fresh integrated invocation, Operations usability and handoff after G2 review; no new broad planning pass is needed.
+
+G2 acceptance follow-up: preserve C18’s original REQ-C18/T18 transfer and require authorized Finance disposition before replacement payment can proceed. `closed-reimbursed` is a derived evidence state, never an agent-issued approval. Presentation version 4 separates payable amounts, gross known held entitlements, unknown totals, supported lines within unknown claims, unreconciled transfers and unsettled accepted commitments; overlapping categories are not summed. The accepted original G2 run remains immutable; [linked revised view](artifacts/runs/g2-accepted-20261017/report.md) is explicitly offline.

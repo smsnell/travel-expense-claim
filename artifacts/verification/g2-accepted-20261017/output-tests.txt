@@ -1,0 +1,13 @@
+test_actual_retained_g1_run_verifies (test_outputs.OutputIntegrityTests.test_actual_retained_g1_run_verifies) ... ok
+test_cli_missing_required_arguments_and_existing_run_leave_files_unchanged (test_outputs.OutputIntegrityTests.test_cli_missing_required_arguments_and_existing_run_leave_files_unchanged) ... ok
+test_csv_mismatch_fails_view_consistency (test_outputs.OutputIntegrityTests.test_csv_mismatch_fails_view_consistency) ... ok
+test_financial_summary_keeps_held_entitlements_and_original_money_distinct (test_outputs.OutputIntegrityTests.test_financial_summary_keeps_held_entitlements_and_original_money_distinct) ... ok
+test_last_snapshot_semantic_money_damage_fails_without_successor_hash (test_outputs.OutputIntegrityTests.test_last_snapshot_semantic_money_damage_fails_without_successor_hash) ... ok
+test_missing_first_batch_fails_sequence (test_outputs.OutputIntegrityTests.test_missing_first_batch_fails_sequence) ... ok
+test_predecessor_digest_corruption_fails_chain (test_outputs.OutputIntegrityTests.test_predecessor_digest_corruption_fails_chain) ... ok
+test_retained_input_corruption_fails_byte_binding (test_outputs.OutputIntegrityTests.test_retained_input_corruption_fails_byte_binding) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.834s
+
+OK

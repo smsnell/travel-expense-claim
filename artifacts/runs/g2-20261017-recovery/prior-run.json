@@ -1,0 +1,26 @@
+{
+  "run_id": "g2-20261017",
+  "path": "/tmp/project-d-recovery-6z85ycmt/g2-20261017",
+  "source_manifest_sha256": "31d7f0a884677b96977cfcd77a6c8d9a9aa8883864ca52f5cecf582c159a49fd",
+  "snapshots": [
+    {
+      "batch_id": "1",
+      "sha256": "131c55826edf546a7f01a33c011b77f72fb525eaea734529f112eaafedd4ddf4"
+    },
+    {
+      "batch_id": "2",
+      "sha256": "43ec5c44966afc016c3bab8c47d7947f23a6e40c7dac472641a5fa0f9ffef759"
+    },
+    {
+      "batch_id": "3",
+      "sha256": "41ba808e50533f652a870244e42be83868d45aa3111abb1686092d7cfdf96cff"
+    },
+    {
+      "batch_id": "4",
+      "sha256": "87ed2059b486f208c1db86c1f32915a383a057eedbe1189c74796bb2f0b3aafe"
+    }
+  ],
+  "reason": "G2 recovery demonstration from a deliberately corrupt temporary copy; original g2-20261017 unchanged",
+  "mode": "offline-recovery",
+  "linked_at": "2026-10-17T19:19:48.302373+00:00"
+}

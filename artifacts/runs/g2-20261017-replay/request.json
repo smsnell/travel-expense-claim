@@ -1,0 +1,6 @@
+{
+  "command": "replay",
+  "run_dir": "/home/mike/travel-expense-claim/artifacts/runs/g2-20261017",
+  "through_batch": 4,
+  "change_reason": "G2 acceptance check: unchanged offline replay of all four retained batches"
+}

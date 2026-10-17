@@ -1,0 +1,11 @@
+test_actual_c18_keeps_original_request_money_separate_from_replacement (test_authority_boundary.AuthorityBoundaryTests.test_actual_c18_keeps_original_request_money_separate_from_replacement) ... ok
+test_current_approvals_and_matching_total_cannot_reassign_old_transfer (test_authority_boundary.AuthorityBoundaryTests.test_current_approvals_and_matching_total_cannot_reassign_old_transfer) ... ok
+test_every_actual_closed_claim_has_exact_source_decisions_and_authorized_actors (test_authority_boundary.AuthorityBoundaryTests.test_every_actual_closed_claim_has_exact_source_decisions_and_authorized_actors) ... ok
+test_missing_or_wrong_finance_resolution_actor_blocks_zero_balance_closure (test_authority_boundary.AuthorityBoundaryTests.test_missing_or_wrong_finance_resolution_actor_blocks_zero_balance_closure) ... ok
+test_removing_current_human_approval_blocks_closure_without_erasing_paid_history (test_authority_boundary.AuthorityBoundaryTests.test_removing_current_human_approval_blocks_closure_without_erasing_paid_history) ... ok
+test_wrong_human_actor_cannot_supply_current_closure_authority (test_authority_boundary.AuthorityBoundaryTests.test_wrong_human_actor_cannot_supply_current_closure_authority) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 4.489s
+
+OK

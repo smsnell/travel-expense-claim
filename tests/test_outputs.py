@@ -27,6 +27,20 @@ def fingerprint(root):
 
 
 class OutputIntegrityTests(unittest.TestCase):
+    def test_financial_summary_keeps_held_entitlements_and_original_money_distinct(self):
+        state = json.loads((IMPLEMENTATION_ROOT / 'artifacts/runs/g2-20261017/batches/4.json').read_text())
+        summary = outputs.financial_summary(state)
+        self.assertEqual(summary, {
+            'payable_cents': 0, 'known_held_entitlement_cents': 128001,
+            'unknown_held_claims': 10, 'supported_inside_unknown_cents': 6000,
+            'unreconciled_paid_cents': 10000, 'unsettled_commitments_cents': 0,
+        })
+        # C18's original transfer is already represented separately; changing
+        # that aggregate must not silently offset its replacement entitlement.
+        c18 = next(c for c in state['claims'] if c['claim_id']=='C18')
+        c18['paid_cents'] = 20000
+        self.assertEqual(outputs.financial_summary(state)['known_held_entitlement_cents'], 128001)
+
     def copy_run(self):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
@@ -83,15 +97,13 @@ class OutputIntegrityTests(unittest.TestCase):
         with self.assertRaisesRegex(outputs.SourceError, 'paid differs from admitted G1 transfers'):
             outputs.verify(run, SCHEMA)
 
-    def test_cli_unimplemented_commands_and_existing_run_leave_files_unchanged(self):
+    def test_cli_missing_required_arguments_and_existing_run_leave_files_unchanged(self):
         before = fingerprint(RUN)
         for command in ('resume', 'replay', 'recover'):
             with self.subTest(command=command):
                 result = subprocess.run([sys.executable, str(SCRIPTS / 'run.py'), command], capture_output=True, text=True)
-                self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
-                error = json.loads(result.stderr)
-                self.assertEqual(error['outcome'], 'failure')
-                self.assertIn(command + ' is not implemented in G1', error['error'])
+                self.assertEqual(result.returncode, 2, result.stdout + result.stderr)
+                self.assertIn('required', result.stderr)
                 self.assertEqual(fingerprint(RUN), before)
         result = subprocess.run([sys.executable, str(SCRIPTS / 'run.py'), 'run', '--run-id', RUN.name,
                                  '--acquisition', '/nonexistent/acquisition.json', '--sequencing-file', '/nonexistent/sequence.md'],

@@ -1,0 +1,7 @@
+{
+  "batch_id": "3",
+  "sealed_at": "2026-10-17T19:18:41.269060+00:00",
+  "mode": "fresh",
+  "snapshot_sha256": "41ba808e50533f652a870244e42be83868d45aa3111abb1686092d7cfdf96cff",
+  "note": "Actual local execution time"
+}

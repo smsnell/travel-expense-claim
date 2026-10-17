@@ -1,0 +1,40 @@
+{
+  "origin_run_id": "g2-20261017",
+  "mode": "offline-replay",
+  "implementation_changed": true,
+  "batches": [
+    {
+      "batch_id": "1",
+      "equivalent": false,
+      "changed_fields": [
+        "coverage",
+        "presentation_version"
+      ]
+    },
+    {
+      "batch_id": "2",
+      "equivalent": false,
+      "changed_fields": [
+        "coverage",
+        "presentation_version"
+      ]
+    },
+    {
+      "batch_id": "3",
+      "equivalent": false,
+      "changed_fields": [
+        "coverage",
+        "presentation_version"
+      ]
+    },
+    {
+      "batch_id": "4",
+      "equivalent": false,
+      "changed_fields": [
+        "coverage",
+        "presentation_version"
+      ]
+    }
+  ],
+  "note": "Semantic comparison excludes run identity and chain/source bindings. Original run retained unchanged; actual reconstruction times recorded in executions/."
+}

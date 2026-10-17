@@ -1,0 +1,18 @@
+{
+  "run_id": "g1-reviewed-20261017",
+  "path": "/home/mike/travel-expense-claim/artifacts/runs/g1-reviewed-20261017",
+  "source_manifest_sha256": "d23d25cd80e72e8a656d2e36c1756dbf62b3f20e0c6d1c024fb1e3119655de1a",
+  "snapshots": [
+    {
+      "batch_id": "1",
+      "sha256": "c9ee6a54419482a7b8e9cc488682dc8e937d15b5a054ba9210f7fe409e4f0967"
+    },
+    {
+      "batch_id": "2",
+      "sha256": "71b1b4a05713cb69c44ce6c93d266775070d7383b2e6a4329a9654363af17902"
+    }
+  ],
+  "reason": "G2 four-batch corrections, cancellation and Finance reconciliation under accepted D4",
+  "mode": "fresh linked recomputation",
+  "linked_at": "2026-10-17T19:18:38.492414+00:00"
+}

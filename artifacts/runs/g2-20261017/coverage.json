@@ -1,0 +1,87 @@
+{
+  "parsed_claim_revisions": 127,
+  "parsed_receipts": 203,
+  "tables": {
+    "People": 14,
+    "Trips": 123,
+    "Merchant payments": 201,
+    "FX": 2,
+    "Caps": 2,
+    "Budget": 3,
+    "Review ledger": 307,
+    "Review packets": 307,
+    "Finance activity": 220,
+    "Travel cancellations": 9
+  },
+  "consumed": [
+    {
+      "through_batch": 1,
+      "delivered_claims": 120,
+      "delivered_claim_revisions": 120,
+      "review_deliveries": 289,
+      "finance_deliveries": 100,
+      "cancellation_deliveries": 2,
+      "deferred_batches": [
+        2,
+        3,
+        4
+      ],
+      "status": "partial-batches",
+      "limits": [
+        "Unresolved cases are owned operational outcomes; native policy equivalence remains unverified",
+        "G2 owner review and G3 final integrated handoff pending"
+      ]
+    },
+    {
+      "through_batch": 2,
+      "delivered_claims": 120,
+      "delivered_claim_revisions": 120,
+      "review_deliveries": 289,
+      "finance_deliveries": 200,
+      "cancellation_deliveries": 6,
+      "deferred_batches": [
+        3,
+        4
+      ],
+      "status": "partial-batches",
+      "limits": [
+        "Unresolved cases are owned operational outcomes; native policy equivalence remains unverified",
+        "G2 owner review and G3 final integrated handoff pending"
+      ]
+    },
+    {
+      "through_batch": 3,
+      "delivered_claims": 121,
+      "delivered_claim_revisions": 126,
+      "review_deliveries": 304,
+      "finance_deliveries": 210,
+      "cancellation_deliveries": 8,
+      "deferred_batches": [
+        4
+      ],
+      "status": "partial-batches",
+      "limits": [
+        "Unresolved cases are owned operational outcomes; native policy equivalence remains unverified",
+        "G2 owner review and G3 final integrated handoff pending"
+      ]
+    },
+    {
+      "through_batch": 4,
+      "delivered_claims": 121,
+      "delivered_claim_revisions": 127,
+      "review_deliveries": 307,
+      "finance_deliveries": 220,
+      "cancellation_deliveries": 9,
+      "deferred_batches": [],
+      "status": "all-source-batches",
+      "limits": [
+        "Unresolved cases are owned operational outcomes; native policy equivalence remains unverified",
+        "G2 owner review and G3 final integrated handoff pending"
+      ]
+    }
+  ],
+  "deferred_claim_revisions": [],
+  "deferred_review_ids": [],
+  "deferred_finance_deliveries": [],
+  "deferred_cancellation_deliveries": []
+}

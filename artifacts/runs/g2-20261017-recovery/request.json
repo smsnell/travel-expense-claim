@@ -1,0 +1,6 @@
+{
+  "command": "recover",
+  "run_dir": "/tmp/project-d-recovery-6z85ycmt/g2-20261017",
+  "through_batch": 4,
+  "change_reason": "G2 recovery demonstration from a deliberately corrupt temporary copy; original g2-20261017 unchanged"
+}
