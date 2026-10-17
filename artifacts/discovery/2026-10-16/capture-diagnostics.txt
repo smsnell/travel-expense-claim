@@ -1,0 +1,53 @@
+$ entire status
+● Enabled · branch main
+  Agents · Codex
+  Checkpoints sync to: origin
+
+── Active Sessions ─────────────────────────────────────────
+
+Codex (gpt-6-astra) · 01a14681-0065-7df3-b331-ffdf97873ed5
+> "<send_user_message_question_reply> [{"answer":"If you are..."
+started 9m ago · active 7m ago · exited (run 'entire doctor')
+
+────────────────────────────────────────────────────────────
+1 session
+
+Agents: run `entire agent-help` for machine-readable usage.
+
+$ entire session info 01a14681-0065-7df3-b331-ffdf97873ed5 --json
+{
+  "session_id": "01a14681-0065-7df3-b331-ffdf97873ed5",
+  "agent": "Codex",
+  "model": "gpt-6-astra",
+  "status": "active",
+  "branch": "main",
+  "worktree_path": "/home/mike/travel-expense-claim",
+  "started_at": "2026-10-16T16:57:15.912071208-04:00",
+  "last_active": "2026-10-16T16:59:27.896585861-04:00",
+  "turns": 0,
+  "checkpoints": 0,
+  "last_prompt": "\u003csend_user_message_question_reply\u003e [{\"answer\":\"If you are unable to find them in your planning, I...",
+  "files_touched": [
+    "DESIGN-PLAN.md",
+    "PROJECT-TRACKER.md",
+    "artifacts/discovery/2026-10-16/workbook-metadata.json",
+    "artifacts/discovery/2026-10-16/workbook-sentinels.json"
+  ]
+}
+
+$ entire session tokens 01a14681-0065-7df3-b331-ffdf97873ed5
+Session tokens
+
+Session: 01a14681-0065-7df3-b331-ffdf97873ed5
+Agent:   Codex
+Model:   gpt-6-astra
+Status:  active
+
+Token usage
+Token data: unavailable
+
+Recommendations
+- Token usage is unavailable for this session; the agent may not expose token data yet, or no checkpoint has captured it.
+
+Limitations
+- No token usage recorded for this session.

@@ -1,0 +1,33 @@
+{
+  "session_id": "01a14681-0065-7df3-b331-ffdf97873ed5",
+  "agent": "Codex",
+  "model": "gpt-6-astra",
+  "status": "active",
+  "source": "session_state",
+  "tokens": {
+    "total": 2052458,
+    "input": 50406,
+    "cache_read": 1985920,
+    "cache_write": 0,
+    "output": 16132,
+    "api_calls": 16
+  },
+  "recommendations": [
+    {
+      "id": "context-replay-hotspot",
+      "severity": "high",
+      "message": "Cache/context replay is 96.8% of token volume; reduce unnecessary follow-up calls in this large-context session.",
+      "signals": [
+        "cache_read_tokens"
+      ]
+    },
+    {
+      "id": "output-pressure",
+      "severity": "medium",
+      "message": "Output tokens are elevated; keep the next answer tight and avoid restating evidence.",
+      "signals": [
+        "output_tokens"
+      ]
+    }
+  ]
+}

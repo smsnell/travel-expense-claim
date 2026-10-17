@@ -1,0 +1,23 @@
+[
+  {
+    "id": "323a7bbaeee0cb228fe200d2197d8dc4a6766bbb",
+    "message": "<send_user_message_question_reply> [{\"answer\":\"If you are unable to find",
+    "metadata_dir": ".entire/metadata/01a14681-0065-7df3-b331-ffdf97873ed5",
+    "date": "2026-10-16T17:07:48-04:00",
+    "is_task_checkpoint": false,
+    "is_logs_only": false,
+    "session_id": "01a14681-0065-7df3-b331-ffdf97873ed5",
+    "session_prompt": "Begin Project D with a **design-only discovery and planni..."
+  },
+  {
+    "id": "e165069959620e5635f4c2afa08613fe0d1395dc",
+    "message": "Entire checkpoint test",
+    "metadata_dir": "",
+    "date": "2026-10-16T16:40:31-04:00",
+    "is_task_checkpoint": false,
+    "is_logs_only": true,
+    "condensation_id": "01M5373SJ2DXM2XKVMR79XKTVB",
+    "session_id": "01a10da5-8266-7660-88e1-174d98f7654a"
+  }
+]
+

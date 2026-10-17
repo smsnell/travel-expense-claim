@@ -1,0 +1,76 @@
+{
+  "purpose": "Follow-up discovery only; not a business run. Earlier workbook/receipt evidence remains dated 2026-10-16.",
+  "observed_at": "2026-10-17T07:24:58.999819+00:00",
+  "original_file_hashes": {
+    "AGENTS.md": "5305fae7ed4cb8805e1f81f9c030caebe5bf152e865580e48abe0ac743c55be7",
+    "REQUIREMENTS.md": "c43fd0d2291f3e5ff3ae0a9be7cb1747bc3c96d72a271b150d808488a6ac8452",
+    "snapshot.schema.json": "108176da5e8fca8daa73e1924d33b6c3ad0feab3bd6dce443a28983a6ac45c19",
+    "README.md": "0a3d557e78cb4e3157958cd9baba2fd2bf6bc859b6c7d31153cf7eaed3b00cdb",
+    "interviews/interview-D-1.md": "f545bf52d13730bb157cff15d4280da2358085be58869e0464d36a6b43c8f06e",
+    "interviews/interview-D-2.md": "3ff9c8cb0a38a065ae3e83883d57ed2361dfd2c68bbdb5fabb93b325f6e8db74",
+    "policy/POL-2026.2.md": "f547ee77729be8ad431a5ddf2e2907f94f29ad50092231191abd2f72c04f54d2"
+  },
+  "files": {
+    "capture-tokens.json": {
+      "bytes": 827,
+      "sha256": "0f305e3fdd25d9f85ae5328f0802024865d3c1f981a76b63b6c89330206ccad6"
+    },
+    "claims-updates-text.json": {
+      "bytes": 5696,
+      "sha256": "2e12e922cd3e8e64a900321d89bbf6850ffdededf027448c6fc974d0ff736bb2"
+    },
+    "claims-initial.pdf": {
+      "bytes": 182878,
+      "sha256": "b42a28754b1877363e1a25ed4fa1f3865915f44ec9995f7ed15fc9b6eefb08b7"
+    },
+    "claims-initial-text.json": {
+      "bytes": 79268,
+      "sha256": "f0172f8aa1f3b8462fe2fd3137147d4c8db8d96a5b344227557cf9a9c680a50f"
+    },
+    "policy-manual-copy.md": {
+      "bytes": 13381,
+      "sha256": "f547ee77729be8ad431a5ddf2e2907f94f29ad50092231191abd2f72c04f54d2"
+    },
+    "claims-updates.pdf": {
+      "bytes": 12336,
+      "sha256": "03c15787d18e2928457cd0164b573dc03a3baade0ed26a391ba79c73a568da3b"
+    },
+    "capture-pending.json": {
+      "bytes": 820,
+      "sha256": "b5e7fd7c1e5aa1e91baf416eca884af2bdc9c2c11c0637034b1a80d734e3ab53"
+    },
+    "capture-session.json": {
+      "bytes": 1263,
+      "sha256": "c9dfaae890af08ab738515d90ceb8323b3b31c7c387319bdb09ff08d74af9304"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/13sRj6s_kMeP1hsYGstWWmfkb6SCN1YOS/view",
+      "status": "read",
+      "modified_time": "2026-09-12T02:56:30.773Z",
+      "label": "SRC-D-3",
+      "pages": 120,
+      "checks": "All numbered pages and PDF page objects agree; complete claim-card fields and final record inspected."
+    },
+    {
+      "url": "https://drive.google.com/file/d/16829RwrGrMCK9oq5TnWuytFewGk_8xQP/view",
+      "status": "read",
+      "modified_time": "2026-09-12T02:56:29.251Z",
+      "label": "SRC-D-3",
+      "pages": 7,
+      "checks": "All numbered pages and PDF page objects agree; complete claim-card fields and final record inspected."
+    },
+    {
+      "url": "https://private-pecorino-70e.notion.site/Project-D-Alderbridge-travel-reimbursement-policy-POL-2026-1-3d80b700541e81ed93ebd386abc1dcb0",
+      "status": "unavailable",
+      "error": "2026-10-17 Notion UUID connector 404; public web reader inaccessible",
+      "manual_copy": "policy-manual-copy.md",
+      "provided_path": "policy/POL-2026.2.md",
+      "provider": "project owner",
+      "export_time": null,
+      "native_equivalence": "unverified",
+      "authority_note": "I2 17:28 resolves URL slug versus policy revision; 17:29 says no maintained alternate format. Owner explicitly authorized use of this backup."
+    }
+  ]
+}

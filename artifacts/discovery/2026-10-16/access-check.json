@@ -1,0 +1,77 @@
+{
+  "purpose": "Design-only discovery evidence; not a business run or fresh-run substitute",
+  "verified_at": "2026-10-16T21:02:36Z",
+  "files": {
+    "receipts-text.json": {
+      "bytes": 71421,
+      "sha256": "884e333306bd7e55f154414c565bddb078b82910f19076d5ed8f1a797209dc01"
+    },
+    "receipts.pdf": {
+      "bytes": 166630,
+      "sha256": "4c3dc47f187ccc5cdd0112e18afaadd3b6363bbb4d96793205ef8f3d4c06fcc8"
+    },
+    "registers-text.json": {
+      "bytes": 221960,
+      "sha256": "6768573ce0b50f2a353b85eca054daa277e7badbe4de0ccd7f50666a3a31a05f"
+    },
+    "travel-registers.xlsx": {
+      "bytes": 136391,
+      "sha256": "f56c3552e12b344208910c12ebb2abb57c15d0fae10b2175324649f296690d25"
+    },
+    "workbook-metadata.json": {
+      "bytes": 2883,
+      "sha256": "24c15de252bc8da8e1809a119a485df1f913afd8fecde25ae0a7e5e9110e4d16"
+    },
+    "capture-diagnostics.txt": {
+      "bytes": 1834,
+      "sha256": "ea27ed84a3eeedde2e1a94ebd52e860fdfe9199a86c9230262edc55d49e15007"
+    },
+    "workbook-sentinels.json": {
+      "bytes": 26563,
+      "sha256": "5eaaf9773be803210eb3826b2e194aa6b099f7e896af5c5d763398cd82c4044f"
+    }
+  },
+  "original_file_hashes": {
+    "AGENTS.md": "5305fae7ed4cb8805e1f81f9c030caebe5bf152e865580e48abe0ac743c55be7",
+    "REQUIREMENTS.md": "c43fd0d2291f3e5ff3ae0a9be7cb1747bc3c96d72a271b150d808488a6ac8452",
+    "README.md": "0a3d557e78cb4e3157958cd9baba2fd2bf6bc859b6c7d31153cf7eaed3b00cdb",
+    "snapshot.schema.json": "108176da5e8fca8daa73e1924d33b6c3ad0feab3bd6dce443a28983a6ac45c19",
+    "interviews/interview-D-1.md": "f545bf52d13730bb157cff15d4280da2358085be58869e0464d36a6b43c8f06e"
+  },
+  "case_clock_from_interview": "2026-11-15 Europe/Amsterdam",
+  "source_label_observed": "SRC-D-3",
+  "sources": [
+    {
+      "name": "Receipt binder",
+      "url": "https://drive.google.com/file/d/1Ynn1VLH-faRIy91xy95rOWwCBhy5mjjM/view",
+      "status": "read",
+      "checks": "166630-byte PDF; 102 PDF page objects; all 102 page markers and 203 cards in connector text; no claim-completeness inference",
+      "modified_time": "2026-09-12T02:56:30.769Z"
+    },
+    {
+      "name": "Travel registers",
+      "url": "https://docs.google.com/spreadsheets/d/1338nvKD6rgAdLgGRhYCMMlQyDNLK0sE8pvFWrZAaaxg/edit",
+      "status": "read",
+      "checks": "10 native tabs match all 10 XLSX sheets and connector text; native tail and precision sentinel reads agree; workbook metadata timezone differs from business semantics",
+      "modified_time": "2026-09-12T02:58:09.286Z"
+    },
+    {
+      "name": "Policy",
+      "url": "https://private-pecorino-70e.notion.site/Project-D-Alderbridge-travel-reimbursement-policy-POL-2026-1-3d80b700541e81ed93ebd386abc1dcb0",
+      "status": "unavailable",
+      "checks": "Notion connector URL/UUID reads return 404; web reader inaccessible; public HTML fetch contains application shell, no policy text"
+    },
+    {
+      "name": "Initial claim binder",
+      "url": null,
+      "status": "location-missing",
+      "checks": "Named at interview 15:16; no URL in export; targeted Drive filename searches found no candidate"
+    },
+    {
+      "name": "Updates claim binder",
+      "url": null,
+      "status": "location-missing",
+      "checks": "Named at interview 15:16; no URL in export; targeted Drive filename searches found no candidate"
+    }
+  ]
+}
