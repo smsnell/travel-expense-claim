@@ -1,0 +1,14 @@
+{
+  "status": "verified",
+  "run_id": "g1-20261017-0855",
+  "snapshots": 2,
+  "current_claims": 120,
+  "checks": [
+    "public schema + formats",
+    "retained byte hashes",
+    "relative source/predecessor chain",
+    "money/event and issue/decision/request references",
+    "CSV/report/queue consistency"
+  ],
+  "scope": "G1 structural/semantic integrity; gate acceptance and G2/G3 remain pending"
+}

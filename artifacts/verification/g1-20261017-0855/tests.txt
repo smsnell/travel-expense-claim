@@ -1,0 +1,25 @@
+test_connected_path_keeps_entitlement_acceptance_and_payment_distinct (test_engine.ActualG1Tests.test_connected_path_keeps_entitlement_acceptance_and_payment_distinct) ... ok
+test_independent_cancellation_has_separate_identity_without_fake_claim (test_engine.ActualG1Tests.test_independent_cancellation_has_separate_identity_without_fake_claim) ... ok
+test_missing_finance_history_fails_instead_of_substituting_zero (test_engine.ActualG1Tests.test_missing_finance_history_fails_instead_of_substituting_zero) ... ok
+test_missing_merchant_proof_holds_only_dependent_claim_work (test_engine.ActualG1Tests.test_missing_merchant_proof_holds_only_dependent_claim_work) ... ok
+test_partial_payment_overpayment_and_withdrawal (test_engine.ActualG1Tests.test_partial_payment_overpayment_and_withdrawal) ... ok
+test_synthetic_tied_cancellation_confirmation_is_invalid (test_engine.ActualG1Tests.test_synthetic_tied_cancellation_confirmation_is_invalid) ... ok
+test_all_same_batch_ties_valid_for_exact_subject_and_revision (test_engine.SyntheticAuthorityTests.test_all_same_batch_ties_valid_for_exact_subject_and_revision) ... ok
+test_combined_budget_supervisor_response_requires_same_authorized_person (test_engine.SyntheticAuthorityTests.test_combined_budget_supervisor_response_requires_same_authorized_person) ... ok
+test_cross_batch_tie_and_backwards_stage_invalid (test_engine.SyntheticAuthorityTests.test_cross_batch_tie_and_backwards_stage_invalid) ... ok
+test_wrong_actor_source_revision_or_packet_cannot_authorize (test_engine.SyntheticAuthorityTests.test_wrong_actor_source_revision_or_packet_cannot_authorize) ... ok
+test_actual_retained_g1_run_verifies (test_outputs.OutputIntegrityTests.test_actual_retained_g1_run_verifies) ... ok
+test_cli_unimplemented_commands_and_existing_run_leave_files_unchanged (test_outputs.OutputIntegrityTests.test_cli_unimplemented_commands_and_existing_run_leave_files_unchanged) ... ok
+test_csv_mismatch_fails_view_consistency (test_outputs.OutputIntegrityTests.test_csv_mismatch_fails_view_consistency) ... ok
+test_last_snapshot_semantic_money_damage_fails_without_successor_hash (test_outputs.OutputIntegrityTests.test_last_snapshot_semantic_money_damage_fails_without_successor_hash) ... ok
+test_missing_first_batch_fails_sequence (test_outputs.OutputIntegrityTests.test_missing_first_batch_fails_sequence) ... ok
+test_predecessor_digest_corruption_fails_chain (test_outputs.OutputIntegrityTests.test_predecessor_digest_corruption_fails_chain) ... ok
+test_retained_input_corruption_fails_byte_binding (test_outputs.OutputIntegrityTests.test_retained_input_corruption_fails_byte_binding) ... ok
+test_page_markers_and_required_card_fields_are_independent_of_assertions (test_source_io.SourceIOTests.test_page_markers_and_required_card_fields_are_independent_of_assertions) ... ok
+test_rejects_bad_handoff_before_retaining_bytes (test_source_io.SourceIOTests.test_rejects_bad_handoff_before_retaining_bytes) ... ok
+test_retains_and_parses_complete_discovery_bytes (test_source_io.SourceIOTests.test_retains_and_parses_complete_discovery_bytes) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 8.888s
+
+OK

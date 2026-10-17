@@ -1,0 +1,25 @@
+{
+  "gate": "G1",
+  "observed_at": "2026-10-17T08:55:30.177227+00:00",
+  "files": [
+    {
+      "path": "skills/travel-expense-claim/scripts/engine.py",
+      "sha256": "efd70f555dc4054073cb6a4452c5a643d0934654ae00294aec857a69daee2ccd"
+    },
+    {
+      "path": "skills/travel-expense-claim/scripts/outputs.py",
+      "sha256": "6db6fd6fca83a4a981945d6ba0714ef05d489278400d13f5ac6ced9df10ff8f0"
+    },
+    {
+      "path": "skills/travel-expense-claim/scripts/run.py",
+      "sha256": "60b2372af8ac4af224d91432749878fc8745bc9d395eae739af4399e03ac0247"
+    },
+    {
+      "path": "skills/travel-expense-claim/scripts/source_io.py",
+      "sha256": "89a673e952a41a9111370003394736b9fb13e6eb4e7accccf89e2ca9f23e5fbe"
+    }
+  ],
+  "schema_sha256": "108176da5e8fca8daa73e1924d33b6c3ad0feab3bd6dce443a28983a6ac45c19",
+  "rule_profile": "POL-2026.2 + interview-D-4",
+  "preliminary_closure": true
+}

@@ -1,0 +1,55 @@
+{
+  "run_id": "g1-20261017-0855",
+  "baseline_commit": "5c9558ae360b8bde28c50e9923d4144037570136",
+  "test_count": 20,
+  "test_result": "passed",
+  "skill_validation": "passed",
+  "security_scan_exit": 0,
+  "security_scan_findings": {
+    "info": 1,
+    "low": 0,
+    "medium": 0,
+    "high": 0,
+    "critical": 0
+  },
+  "manual_inspection": [
+    "C01/C02 entitlement and paid balances",
+    "P02 director decision distinct from claim authority",
+    "C114 supported line with unknown total and no request",
+    "TC122 independent cancellation without claim",
+    "CSV blank unknowns and queue owners/actions",
+    "all local documentation links exist",
+    "implementation hashes match run"
+  ],
+  "limitations": [
+    "Native Notion inaccessible; manual policy live equivalence unverified",
+    "G2/G3 and D4 acceptance pending",
+    "Session capture owner-managed; not certified for uncommitted G1"
+  ],
+  "artifacts": [
+    {
+      "path": "artifacts/runs/g1-20261017-0855/sources.json",
+      "sha256": "726bcc4b2fa2f5beffd21318fdf0c41805a63dcaf8be94d50c23474f2fe89ef2"
+    },
+    {
+      "path": "artifacts/runs/g1-20261017-0855/batches/1.json",
+      "sha256": "e07637244386d5c685b0486458d1b6fa45e2343f90dbb814b12f0ef8d6e00649"
+    },
+    {
+      "path": "artifacts/runs/g1-20261017-0855/batches/2.json",
+      "sha256": "2448806c5d522a0666ddb41a459bae1209cbce2b24ae41bec46cb0cfb8de0766"
+    },
+    {
+      "path": "artifacts/runs/g1-20261017-0855/claims.csv",
+      "sha256": "9c0e1cd101d0c6f93d555601c4da8ac13c16437cbb55668bbda9299239ba015b"
+    },
+    {
+      "path": "artifacts/runs/g1-20261017-0855/report.md",
+      "sha256": "1bf416d76874b2313d6088bebc5b559976f52d58eaed2f973a815ae53df8f2b5"
+    },
+    {
+      "path": "artifacts/runs/g1-20261017-0855/repair-queue.md",
+      "sha256": "cddad5ce9cacf7bf4a569556293e943fa368eb187a7e63b351756f6d7f1a6f7d"
+    }
+  ]
+}

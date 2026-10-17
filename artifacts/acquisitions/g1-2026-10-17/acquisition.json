@@ -1,0 +1,80 @@
+{
+  "acquisition_id": "g1-2026-10-17",
+  "mode": "fresh",
+  "case_clock": {
+    "date": "2026-11-15",
+    "timezone": "Europe/Amsterdam"
+  },
+  "source_version": "SRC-D-3",
+  "files": [
+    {
+      "source_id": "initial",
+      "url": "https://drive.google.com/file/d/13sRj6s_kMeP1hsYGstWWmfkb6SCN1YOS/view",
+      "path": "initial.pdf",
+      "sha256": "b42a28754b1877363e1a25ed4fa1f3865915f44ec9995f7ed15fc9b6eefb08b7",
+      "status": "read",
+      "error": null,
+      "locator": "Complete initial PDF",
+      "observed_at": "2026-10-17T08:44:34Z",
+      "version": "SRC-D-3",
+      "acquisition_method": "supported Drive metadata and raw export; returned file URI materialized",
+      "completeness": "120 physical pages; parser checks every page marker and card",
+      "provider_modified_time": "2026-09-12T02:56:30.773Z"
+    },
+    {
+      "source_id": "updates",
+      "url": "https://drive.google.com/file/d/16829RwrGrMCK9oq5TnWuytFewGk_8xQP/view",
+      "path": "updates.pdf",
+      "sha256": "03c15787d18e2928457cd0164b573dc03a3baade0ed26a391ba79c73a568da3b",
+      "status": "read",
+      "error": null,
+      "locator": "Complete updates PDF",
+      "observed_at": "2026-10-17T08:44:34Z",
+      "version": "SRC-D-3",
+      "acquisition_method": "supported Drive metadata and raw export; returned file URI materialized",
+      "completeness": "7 physical pages; parser checks every page marker and card",
+      "provider_modified_time": "2026-09-12T02:56:29.251Z"
+    },
+    {
+      "source_id": "receipts",
+      "url": "https://drive.google.com/file/d/1Ynn1VLH-faRIy91xy95rOWwCBhy5mjjM/view",
+      "path": "receipts.pdf",
+      "sha256": "4c3dc47f187ccc5cdd0112e18afaadd3b6363bbb4d96793205ef8f3d4c06fcc8",
+      "status": "read",
+      "error": null,
+      "locator": "Complete receipts PDF",
+      "observed_at": "2026-10-17T08:44:34Z",
+      "version": "SRC-D-3",
+      "acquisition_method": "supported Drive metadata and raw export; returned file URI materialized",
+      "completeness": "102 physical pages; parser checks every page marker and card",
+      "provider_modified_time": "2026-09-12T02:56:30.769Z"
+    },
+    {
+      "source_id": "registers",
+      "url": "https://docs.google.com/spreadsheets/d/1338nvKD6rgAdLgGRhYCMMlQyDNLK0sE8pvFWrZAaaxg/edit",
+      "path": "registers.xlsx",
+      "sha256": "2b9bed20b5aa2489650034a00abdc6088781934f72704d8e36ad763a7dd95f71",
+      "status": "read",
+      "error": null,
+      "locator": "All ten native tabs",
+      "observed_at": "2026-10-17T08:44:34Z",
+      "version": "SRC-D-3",
+      "acquisition_method": "supported Drive metadata and raw export; returned file URI materialized",
+      "completeness": "10 native tabs; parser checks headers, rows, lexical numeric cells",
+      "provider_modified_time": "2026-09-12T02:58:09.286Z"
+    },
+    {
+      "source_id": "policy-native",
+      "url": "https://private-pecorino-70e.notion.site/Project-D-Alderbridge-travel-reimbursement-policy-POL-2026-1-3d80b700541e81ed93ebd386abc1dcb0",
+      "path": null,
+      "sha256": null,
+      "status": "unavailable",
+      "error": "Notion connector API object_not_found / HTTP 404 for exact page UUID",
+      "locator": "Entire live policy page",
+      "observed_at": "2026-10-17T08:46:31Z",
+      "version": null,
+      "acquisition_method": "supported Notion fetch exact UUID",
+      "completeness": "No policy content returned; manual file required"
+    }
+  ]
+}

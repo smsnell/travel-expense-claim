@@ -1,0 +1,121 @@
+claim_id,revision,trip_id,status,allowed_cents,paid_cents,balance_cents,next_owner,reason
+C01,1,T01,closed-reimbursed,10000,10000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C02,1,T02,closed-reimbursed,54000,54000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C03,1,T03,closed-reimbursed,20000,20000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C04,1,T04,closed-reimbursed,10000,10000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C05,1,T05,closed-reimbursed,100000,100000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C06,1,T06,closed-reimbursed,100001,100001,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C07,1,T07,closed-reimbursed,30000,30000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C08,1,T08,held,,0,,EMP-01 / Administration,COST-08: merchant_payment_missing_or_ambiguous
+C09,1,T09,held,8000,0,,EMP-01 / LEAD-01,Please supply the revised trip evidence.
+C10,1,T10,held,,0,,Finance,COST-10: late_permit
+C100,1,T100,closed-reimbursed,100000,100000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C101,1,T101,closed-reimbursed,100001,100001,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C102,1,T102,closed-reimbursed,14999,14999,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C103,1,T103,closed-reimbursed,15000,15000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C104,1,T104,closed-reimbursed,15000,15000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C105,1,T105,closed-reimbursed,3999,3999,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C106,1,T106,closed-reimbursed,4000,4000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C107,1,T107,closed-reimbursed,4000,4000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C108,1,T108,closed-reimbursed,208,208,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C109,1,T109,closed-reimbursed,208,208,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C11,1,T11,closed-reimbursed,6000,6000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C110,1,T110,closed-reimbursed,2500,2500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C111,1,T111,closed-reimbursed,2500,2500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C112,1,T112,held,,0,,Finance,COST-112-1: late_filing
+C113,1,T113,held,,0,,EMP-03 / Administration,COST-113-1: filed_before_employee_payment
+C114,1,T114,held,,0,,EMP-03 / Administration,COST-114-2: merchant_payment_missing_or_ambiguous
+C115,1,T115,closed-reimbursed,1500,1500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C116,1,T116,held,,0,,Finance,COST-116-1: cap_missing_or_ambiguous; COST-116-2: fx_missing_or_ambiguous
+C117,1,T117,held,,0,,Finance,COST-117-1: category_unknown
+C118,1,T118,closed-no-payment,0,0,0,,Known zero entitlement; no financial effect
+C119,1,T119,held,100001,0,,Administration / authorized reviewers,missing director response
+C12,1,T12,held,,0,,Finance,COST-12: late_filing
+C120,1,T120,pending,7500,3000,4500,Finance,Current approvals valid; await confirmed Finance settlement
+C121,1,T121,held,,0,,Finance / Administration,Cancellation confirmed; original purchase evidence retained
+C13,1,T13,withdrawn,0,0,0,,Employee withdrew before review.
+C14,1,T14,rejected,0,0,0,,Authorized reviewer rejected: Client work was cancelled.
+C15,1,T15,closed-no-payment,0,0,0,,Known zero entitlement; no financial effect
+C16,1,T16,pending,10000,4000,6000,Finance,Current approvals valid; await confirmed Finance settlement
+C17,1,T17,held,10000,0,10000,Finance,Finance attempt failed; no transfer effect
+C18,1,T18,held,,0,,Finance,"Finance cancellation requested, not confirmed; Cancellation confirmed; original purchase evidence retained"
+C19,1,T19,closed-reimbursed,10000,10000,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C20,1,T20,held,10000,11000,-1000,Finance,Confirmed transfers exceed the current reviewed obligation
+C21,1,T21,held,8000,0,,EMP-01 / LEAD-01,Budget owner requests a funding review before committing.
+C22,1,T22,held,,0,,Finance,COST-22: fx_missing_or_ambiguous
+C23,1,T23,held,,0,,Finance,COST-23: cap_missing_or_ambiguous
+C25,1,T25,held,,0,,Finance,COST-25: permit_unapproved
+C26,1,T26,held,10000,0,,Administration / authorized reviewers,missing administration response
+C27,1,T27,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C28,1,T28,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C29,1,T29,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C30,1,T30,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C31,1,T31,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C32,1,T32,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C33,1,T33,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C34,1,T34,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C35,1,T35,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C36,1,T36,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C37,1,T37,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C38,1,T38,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C39,1,T39,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C40,1,T40,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C41,1,T41,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C42,1,T42,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C43,1,T43,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C44,1,T44,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C45,1,T45,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C46,1,T46,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C47,1,T47,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C48,1,T48,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C49,1,T49,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C50,1,T50,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C51,1,T51,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C52,1,T52,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C53,1,T53,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C54,1,T54,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C55,1,T55,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C56,1,T56,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C57,1,T57,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C58,1,T58,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C59,1,T59,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C60,1,T60,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C61,1,T61,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C62,1,T62,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C63,1,T63,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C64,1,T64,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C65,1,T65,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C66,1,T66,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C67,1,T67,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C68,1,T68,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C69,1,T69,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C70,1,T70,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C71,1,T71,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C72,1,T72,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C73,1,T73,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C74,1,T74,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C75,1,T75,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C76,1,T76,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C77,1,T77,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C78,1,T78,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C79,1,T79,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C80,1,T80,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C81,1,T81,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C82,1,T82,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C83,1,T83,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C84,1,T84,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C85,1,T85,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C86,1,T86,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C87,1,T87,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C88,1,T88,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C89,1,T89,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C90,1,T90,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C91,1,T91,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C92,1,T92,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C93,1,T93,closed-reimbursed,3500,3500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C94,1,T94,closed-reimbursed,4500,4500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C95,1,T95,closed-reimbursed,5500,5500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C96,1,T96,closed-reimbursed,6500,6500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C97,1,T97,closed-reimbursed,7500,7500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C98,1,T98,closed-reimbursed,8500,8500,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"
+C99,1,T99,closed-reimbursed,99999,99999,0,,"Current approvals, supported entitlement and confirmed payment agree; no outstanding issue or Finance balance"

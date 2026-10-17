@@ -1,0 +1,16 @@
+{
+  "run_id": "g1-20261017-0855",
+  "source_manifest_sha256": "726bcc4b2fa2f5beffd21318fdf0c41805a63dcaf8be94d50c23474f2fe89ef2",
+  "snapshots": [
+    {
+      "batch_id": "1",
+      "sha256": "e07637244386d5c685b0486458d1b6fa45e2343f90dbb814b12f0ef8d6e00649"
+    },
+    {
+      "batch_id": "2",
+      "sha256": "2448806c5d522a0666ddb41a459bae1209cbce2b24ae41bec46cb0cfb8de0766"
+    }
+  ],
+  "reason": "Owner accepted D4 and requested Operations presentation improvements",
+  "mode": "fresh linked recomputation; original retained unchanged"
+}
