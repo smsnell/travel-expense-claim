@@ -1,0 +1,105 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M55M176JXWCGAAC3B1BBQCZM",
+  "session_id": "01a14681-0065-7df3-b331-ffdf97873ed5",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-17T19:04:51.338024259Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    ".gitignore",
+    "DESIGN-PLAN.md",
+    "PROJECT-TRACKER.md",
+    "README.md",
+    "artifacts/acquisitions/g1-2026-10-17/acquisition.json",
+    "artifacts/acquisitions/g1-2026-10-17/initial.pdf",
+    "artifacts/acquisitions/g1-2026-10-17/receipts.pdf",
+    "artifacts/acquisitions/g1-2026-10-17/registers.xlsx",
+    "artifacts/acquisitions/g1-2026-10-17/updates.pdf",
+    "artifacts/acquisitions/g1-accepted-20261017/acquisition.json",
+    "artifacts/runs/g1-20261017-0855/batches/1.json",
+    "artifacts/runs/g1-20261017-0855/batches/2.json",
+    "artifacts/runs/g1-20261017-0855/claims.csv",
+    "artifacts/runs/g1-20261017-0855/coverage.json",
+    "artifacts/runs/g1-20261017-0855/implementation.json",
+    "artifacts/runs/g1-20261017-0855/inputs/initial.pdf",
+    "artifacts/runs/g1-20261017-0855/inputs/policy-manual.md",
+    "artifacts/runs/g1-20261017-0855/inputs/receipts.pdf",
+    "artifacts/runs/g1-20261017-0855/inputs/registers.xlsx",
+    "artifacts/runs/g1-20261017-0855/inputs/sequencing.md",
+    "artifacts/runs/g1-20261017-0855/inputs/updates.pdf",
+    "artifacts/runs/g1-20261017-0855/repair-queue.md",
+    "artifacts/runs/g1-20261017-0855/report.md",
+    "artifacts/runs/g1-20261017-0855/sources.json",
+    "artifacts/runs/g1-20261017-0855/verification.json",
+    "artifacts/verification/g1-20261017-0855/dependencies.txt",
+    "artifacts/verification/g1-20261017-0855/review-checks.json",
+    "artifacts/verification/g1-20261017-0855/security-scan.md",
+    "artifacts/verification/g1-20261017-0855/tests.txt",
+    "requirements.txt",
+    "skills/travel-expense-claim/SKILL.md",
+    "skills/travel-expense-claim/scripts/engine.py",
+    "skills/travel-expense-claim/scripts/outputs.py",
+    "skills/travel-expense-claim/scripts/run.py",
+    "skills/travel-expense-claim/scripts/source_io.py",
+    "tests/test_engine.py",
+    "tests/test_outputs.py",
+    "tests/test_source_io.py"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6-astra",
+  "turn_id": "518371f9f9f7",
+  "checkpoint_transcript_start": 418,
+  "transcript_lines_at_start": 418,
+  "compact_transcript_start": 50,
+  "token_usage": {
+    "input_tokens": 263898,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 4840192,
+    "output_tokens": 41986,
+    "api_call_count": 48,
+    "subagent_tokens": {
+      "input_tokens": 101697,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 3118464,
+      "output_tokens": 20682,
+      "api_call_count": 55
+    },
+    "subagent_tokens_complete": true
+  },
+  "session_metrics": {
+    "turn_count": 3
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-17T19:04:51.078381046Z",
+    "agent_lines": 79031,
+    "agent_removed": 31,
+    "human_added": 78382,
+    "human_modified": 61,
+    "human_removed": 0,
+    "total_committed": 157474,
+    "total_lines_changed": 157505,
+    "agent_percentage": 50.19650169835879,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 730,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "interviews/interview-D-4.md": 730
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 79822,
+      "agent_lines_removed": 31
+    }
+  ]
+}
