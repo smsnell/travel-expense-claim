@@ -1,0 +1,29 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M56GV7PMFKBJD95JY673YCM8",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "PROJECT-TRACKER.md",
+    "SUBMISSION.md",
+    "artifacts/verification/g3-20261017/README.md",
+    "artifacts/verification/submission-20261018/remote-verification.json"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": ""
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 11601,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 1468800,
+    "output_tokens": 4893,
+    "api_call_count": 8
+  }
+}
