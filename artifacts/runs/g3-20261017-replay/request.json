@@ -1,0 +1,6 @@
+{
+  "command": "replay",
+  "run_dir": "/home/mike/travel-expense-claim/artifacts/runs/g3-20261017",
+  "through_batch": 4,
+  "change_reason": "Final G3 unchanged offline replay of all four freshly bound batches"
+}

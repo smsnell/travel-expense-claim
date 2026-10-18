@@ -1,0 +1,121 @@
+{
+  "required_deliverables": [
+    "SUBMISSION.md",
+    "AGENTS.md",
+    "REQUIREMENTS.md",
+    "snapshot.schema.json",
+    "README.md",
+    "requirements.txt",
+    "SOURCE-RETRIEVAL.md",
+    "skills/travel-expense-claim/SKILL.md",
+    "interviews/interview-D-4.md",
+    "interviews/README.md",
+    "artifacts/runs/g3-20261017/sources.json",
+    "artifacts/runs/g3-20261017/claims.csv",
+    "artifacts/runs/g3-20261017/report.md",
+    "artifacts/runs/g3-20261017/repair-queue.md",
+    "artifacts/runs/g3-20261017/coverage.json",
+    "artifacts/runs/g3-20261017/verification.json",
+    "artifacts/runs/g3-20261017/batches/1.json",
+    "artifacts/runs/g3-20261017/batches/2.json",
+    "artifacts/runs/g3-20261017/batches/3.json",
+    "artifacts/runs/g3-20261017/batches/4.json"
+  ],
+  "sealed_files_unchanged": 204,
+  "unchanged_D4_sha256": "c0f0a12942bd52a3c7ee215fbd42aa87eb60cadea8c5ba9887b648398e30c56e",
+  "reference_verdicts": {
+    ".entire/metadata/01a14681-0065-7df3-b331-ffdf97873ed5/full.jsonl": {
+      "hint": "content",
+      "verdict": "historical",
+      "action": "Preserve point-in-time record; archive index resolves original provenance path"
+    },
+    "DESIGN-PLAN.md": {
+      "hint": "content",
+      "verdict": "live",
+      "action": "Link exact original at immutable G2 commit"
+    },
+    "PROJECT-TRACKER.md": {
+      "hint": "content",
+      "verdict": "live",
+      "action": "Link exact original at immutable G2 commit"
+    },
+    "artifacts/discovery/2026-10-16/access-check.json": {
+      "hint": "content",
+      "verdict": "historical",
+      "action": "Preserve point-in-time record; archive index resolves original provenance path"
+    },
+    "artifacts/discovery/2026-10-17/access-check.json": {
+      "hint": "content",
+      "verdict": "historical",
+      "action": "Preserve point-in-time record; archive index resolves original provenance path"
+    },
+    "tests/test_source_io.py": {
+      "hint": "content",
+      "verdict": "live",
+      "action": "Use unchanged final D-4 export"
+    },
+    "interviews/README.md": {
+      "hint": "content",
+      "verdict": "historical",
+      "action": "New archive index links exact original versions; no stale local live path"
+    },
+    "artifacts/verification/submission-20261018/package-check.json": {
+      "hint": "historical",
+      "verdict": "historical",
+      "action": "Audit records original paths; intentional self-reference excluded from live links"
+    }
+  },
+  "reference_residue": {
+    "interviews/interview-D-1.md": [
+      ".entire/metadata/01a14681-0065-7df3-b331-ffdf97873ed5/full.jsonl\tcontent",
+      "DESIGN-PLAN.md\tcontent",
+      "PROJECT-TRACKER.md\tcontent",
+      "artifacts/discovery/2026-10-16/access-check.json\tcontent",
+      "artifacts/discovery/2026-10-17/access-check.json\tcontent",
+      "interviews/README.md\tcontent"
+    ],
+    "interview-D-1.md": [
+      ".entire/metadata/01a14681-0065-7df3-b331-ffdf97873ed5/full.jsonl\tcontent",
+      "DESIGN-PLAN.md\tcontent",
+      "PROJECT-TRACKER.md\tcontent",
+      "artifacts/discovery/2026-10-16/access-check.json\tcontent",
+      "artifacts/discovery/2026-10-17/access-check.json\tcontent",
+      "interviews/README.md\tcontent"
+    ],
+    "interviews/interview-D-2.md": [
+      ".entire/metadata/01a14681-0065-7df3-b331-ffdf97873ed5/full.jsonl\tcontent",
+      "DESIGN-PLAN.md\tcontent",
+      "PROJECT-TRACKER.md\tcontent",
+      "artifacts/discovery/2026-10-17/access-check.json\tcontent",
+      "interviews/README.md\tcontent"
+    ],
+    "interview-D-2.md": [
+      ".entire/metadata/01a14681-0065-7df3-b331-ffdf97873ed5/full.jsonl\tcontent",
+      "DESIGN-PLAN.md\tcontent",
+      "PROJECT-TRACKER.md\tcontent",
+      "artifacts/discovery/2026-10-17/access-check.json\tcontent",
+      "interviews/README.md\tcontent"
+    ],
+    "interviews/interview-D-3.md": [
+      ".entire/metadata/01a14681-0065-7df3-b331-ffdf97873ed5/full.jsonl\tcontent",
+      "interviews/README.md\tcontent"
+    ],
+    "interview-D-3.md": [
+      ".entire/metadata/01a14681-0065-7df3-b331-ffdf97873ed5/full.jsonl\tcontent",
+      "interviews/README.md\tcontent"
+    ]
+  },
+  "link_symlink_checks": {
+    "symcheck.sh": {
+      "exit": 0,
+      "output": ""
+    },
+    "linkcheck.sh": {
+      "exit": 0,
+      "output": ""
+    }
+  },
+  "negative_control": "isolated broken symlink correctly rejected",
+  "owner_authorized_archive_mode": "Remove superseded exports from current tree; exact originals retained in Git history, overriding ordinary archive relocation/file-conservation steps",
+  "parser_fixture_check": "3 tests passed after switching D3 fixture path to unchanged D4"
+}

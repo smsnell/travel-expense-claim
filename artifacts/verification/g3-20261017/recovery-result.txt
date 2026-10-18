@@ -1,0 +1,1 @@
+Corrupt-state resume refused; all four recovered states equal the intact original; original unchanged.

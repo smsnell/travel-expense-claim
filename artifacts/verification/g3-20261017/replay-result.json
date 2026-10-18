@@ -1,0 +1,25 @@
+{
+  "outcome": "partial",
+  "run": "/home/mike/travel-expense-claim/artifacts/runs/g3-20261017-replay",
+  "mode": "offline-replay",
+  "verification": {
+    "status": "verified",
+    "run_id": "g3-20261017-replay",
+    "snapshots": 4,
+    "current_claims": 121,
+    "checks": [
+      "public schema + formats",
+      "retained byte hashes",
+      "relative source/predecessor chain",
+      "money/event and issue/decision/request references",
+      "CSV/report/queue consistency"
+    ],
+    "scope": "Structural/semantic integrity; owner acceptance is separate from verification"
+  },
+  "limitations": [
+    "Unresolved cases are owned operational outcomes",
+    "G3 final owner review and handoff acceptance pending",
+    "Native Notion policy unavailable; manual policy export time unknown and live equivalence unverified"
+  ]
+}
+

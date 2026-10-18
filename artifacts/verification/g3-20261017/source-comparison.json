@@ -1,0 +1,179 @@
+{
+  "old_sha256": "8f81eb8324518f305231378028ca556b0260fc2f62842efcf8a28e7f3b8812ee",
+  "fresh_sha256": "7599926f932bdb984aca0da8c8adaeddbc602bb83a640e7f2360522b95a9434f",
+  "normalized_tables_identical": true,
+  "changed_rows": {},
+  "inventory": {
+    "People": {
+      "headers": [
+        "Employee ID",
+        "Department",
+        "Project",
+        "Budget period",
+        "Payee ID",
+        "Administration reviewer",
+        "Budget owner",
+        "Supervisor",
+        "Director",
+        "Finance officer"
+      ],
+      "records": 14,
+      "last_row": "People!A19:J19"
+    },
+    "Trips": {
+      "headers": [
+        "Trip reference",
+        "Employee ID",
+        "Destination",
+        "International",
+        "Start date",
+        "End date",
+        "First commitment date",
+        "Estimate (EUR)",
+        "Business purpose",
+        "Client",
+        "Schedule coverage",
+        "Alternatives considered",
+        "Permit reference",
+        "Trip revision",
+        "Permit revision"
+      ],
+      "records": 123,
+      "last_row": "Trips!A128:O128"
+    },
+    "Merchant payments": {
+      "headers": [
+        "Transaction reference",
+        "Expense reference",
+        "Employee ID",
+        "Trip reference",
+        "Currency",
+        "Gross amount",
+        "Paid date",
+        "Payment status",
+        "Receipt reference"
+      ],
+      "records": 201,
+      "last_row": "Merchant payments!A206:I206"
+    },
+    "FX": {
+      "headers": [
+        "Rate reference",
+        "Rate date",
+        "Currency",
+        "EUR per currency unit"
+      ],
+      "records": 2,
+      "last_row": "FX!A7:D7"
+    },
+    "Caps": {
+      "headers": [
+        "Cap reference",
+        "Destination",
+        "Category",
+        "Currency",
+        "Effective from",
+        "Effective to",
+        "Amount per unit"
+      ],
+      "records": 2,
+      "last_row": "Caps!A7:G7"
+    },
+    "Budget": {
+      "headers": [
+        "Ledger reference",
+        "Department",
+        "Project",
+        "Budget period",
+        "Entry type",
+        "Obligation reference",
+        "Allocation or commitment (EUR)",
+        "Settled (EUR)",
+        "Refunded (EUR)"
+      ],
+      "records": 3,
+      "last_row": "Budget!A8:I8"
+    },
+    "Review ledger": {
+      "headers": [
+        "Decision reference",
+        "Arrival batch",
+        "Subject type",
+        "Subject reference",
+        "Revision",
+        "Review roles",
+        "Reviewer",
+        "Outcome",
+        "Reason",
+        "Repair requested",
+        "Source revisions",
+        "Affected fields",
+        "Decision time (UTC)"
+      ],
+      "records": 307,
+      "last_row": "Review ledger!A312:M312"
+    },
+    "Review packets": {
+      "headers": [
+        "Decision reference",
+        "Employee ID",
+        "Trip reference",
+        "Business purpose",
+        "Client",
+        "Schedule coverage",
+        "Alternatives considered",
+        "Permit reference",
+        "Expense references",
+        "Policy revision",
+        "Budget record references",
+        "Reviewed estimate (EUR)",
+        "Budget owner position",
+        "Trip revision",
+        "Permit revision",
+        "Travel cancellation references"
+      ],
+      "records": 307,
+      "last_row": "Review packets!A312:P312"
+    },
+    "Finance activity": {
+      "headers": [
+        "Activity reference",
+        "Arrival batch",
+        "Activity type",
+        "Request reference",
+        "Claim reference",
+        "Finance officer",
+        "Payee ID",
+        "Currency",
+        "Amount (EUR)",
+        "Original activity reference",
+        "Obligation (EUR)",
+        "Reason",
+        "Activity time (UTC)"
+      ],
+      "records": 220,
+      "last_row": "Finance activity!A225:M225"
+    },
+    "Travel cancellations": {
+      "headers": [
+        "Cancellation activity reference",
+        "Cancellation reference",
+        "Action",
+        "Cancelled subject",
+        "Trip reference",
+        "Trip revision",
+        "Permit reference",
+        "Permit revision",
+        "Initiation activity reference",
+        "Acting employee or supervisor",
+        "Activity time (UTC)",
+        "Effective time (UTC)",
+        "Arrival batch",
+        "Business reason"
+      ],
+      "records": 9,
+      "last_row": "Travel cancellations!A14:N14"
+    }
+  },
+  "finding": "Raw XLSX export packaging differs; all parsed headers, lexical values, rows and locators are identical"
+}

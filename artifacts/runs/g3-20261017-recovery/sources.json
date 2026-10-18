@@ -1,0 +1,472 @@
+{
+  "acquisition_id": "g3-20261017",
+  "mode": "offline-recovery",
+  "case_clock": {
+    "date": "2026-11-15",
+    "timezone": "Europe/Amsterdam"
+  },
+  "source_version": "SRC-D-3",
+  "run_id": "g3-20261017-recovery",
+  "parser_version": "source-io/1",
+  "files": [
+    {
+      "source_id": "initial",
+      "url": "https://drive.google.com/file/d/13sRj6s_kMeP1hsYGstWWmfkb6SCN1YOS/view",
+      "path": "inputs/initial.pdf",
+      "sha256": "b42a28754b1877363e1a25ed4fa1f3865915f44ec9995f7ed15fc9b6eefb08b7",
+      "status": "read",
+      "error": null,
+      "locator": "All physical pages and cards",
+      "observed_at": "2026-10-17T21:03:46Z",
+      "version": "SRC-D-3",
+      "acquisition_method": "supported Drive metadata and streamed raw export (include_base64=false); materialized returned file URI",
+      "completeness": "Exact fresh PDF hash matches prior fully parsed source; physical pages/cards validated again by prepare_sources",
+      "provider_modified_time": "2026-09-12T02:56:30.773Z",
+      "verified_coverage": {
+        "page_count": 120,
+        "record_count": 120,
+        "page_markers": "all physical pages matched"
+      }
+    },
+    {
+      "source_id": "updates",
+      "url": "https://drive.google.com/file/d/16829RwrGrMCK9oq5TnWuytFewGk_8xQP/view",
+      "path": "inputs/updates.pdf",
+      "sha256": "03c15787d18e2928457cd0164b573dc03a3baade0ed26a391ba79c73a568da3b",
+      "status": "read",
+      "error": null,
+      "locator": "All physical pages and cards",
+      "observed_at": "2026-10-17T21:03:46Z",
+      "version": "SRC-D-3",
+      "acquisition_method": "supported Drive metadata and streamed raw export (include_base64=false); materialized returned file URI",
+      "completeness": "Exact fresh PDF hash matches prior fully parsed source; physical pages/cards validated again by prepare_sources",
+      "provider_modified_time": "2026-09-12T02:56:29.251Z",
+      "verified_coverage": {
+        "page_count": 7,
+        "record_count": 7,
+        "page_markers": "all physical pages matched"
+      }
+    },
+    {
+      "source_id": "receipts",
+      "url": "https://drive.google.com/file/d/1Ynn1VLH-faRIy91xy95rOWwCBhy5mjjM/view",
+      "path": "inputs/receipts.pdf",
+      "sha256": "4c3dc47f187ccc5cdd0112e18afaadd3b6363bbb4d96793205ef8f3d4c06fcc8",
+      "status": "read",
+      "error": null,
+      "locator": "All physical pages and cards",
+      "observed_at": "2026-10-17T21:03:46Z",
+      "version": "SRC-D-3",
+      "acquisition_method": "supported Drive metadata and streamed raw export (include_base64=false); materialized returned file URI",
+      "completeness": "Exact fresh PDF hash matches prior fully parsed source; physical pages/cards validated again by prepare_sources",
+      "provider_modified_time": "2026-09-12T02:56:30.769Z",
+      "verified_coverage": {
+        "page_count": 102,
+        "record_count": 203,
+        "page_markers": "all physical pages matched"
+      }
+    },
+    {
+      "source_id": "registers",
+      "url": "https://docs.google.com/spreadsheets/d/1338nvKD6rgAdLgGRhYCMMlQyDNLK0sE8pvFWrZAaaxg/edit",
+      "path": "inputs/registers.xlsx",
+      "sha256": "7599926f932bdb984aca0da8c8adaeddbc602bb83a640e7f2360522b95a9434f",
+      "status": "read",
+      "error": null,
+      "locator": "All ten native tabs",
+      "observed_at": "2026-10-17T21:03:47Z",
+      "version": "SRC-D-3",
+      "acquisition_method": "supported Drive metadata and streamed raw export (include_base64=false); materialized returned file URI",
+      "completeness": {
+        "People": {
+          "headers": [
+            "Employee ID",
+            "Department",
+            "Project",
+            "Budget period",
+            "Payee ID",
+            "Administration reviewer",
+            "Budget owner",
+            "Supervisor",
+            "Director",
+            "Finance officer"
+          ],
+          "records": 14,
+          "last_row": "People!A19:J19"
+        },
+        "Trips": {
+          "headers": [
+            "Trip reference",
+            "Employee ID",
+            "Destination",
+            "International",
+            "Start date",
+            "End date",
+            "First commitment date",
+            "Estimate (EUR)",
+            "Business purpose",
+            "Client",
+            "Schedule coverage",
+            "Alternatives considered",
+            "Permit reference",
+            "Trip revision",
+            "Permit revision"
+          ],
+          "records": 123,
+          "last_row": "Trips!A128:O128"
+        },
+        "Merchant payments": {
+          "headers": [
+            "Transaction reference",
+            "Expense reference",
+            "Employee ID",
+            "Trip reference",
+            "Currency",
+            "Gross amount",
+            "Paid date",
+            "Payment status",
+            "Receipt reference"
+          ],
+          "records": 201,
+          "last_row": "Merchant payments!A206:I206"
+        },
+        "FX": {
+          "headers": [
+            "Rate reference",
+            "Rate date",
+            "Currency",
+            "EUR per currency unit"
+          ],
+          "records": 2,
+          "last_row": "FX!A7:D7"
+        },
+        "Caps": {
+          "headers": [
+            "Cap reference",
+            "Destination",
+            "Category",
+            "Currency",
+            "Effective from",
+            "Effective to",
+            "Amount per unit"
+          ],
+          "records": 2,
+          "last_row": "Caps!A7:G7"
+        },
+        "Budget": {
+          "headers": [
+            "Ledger reference",
+            "Department",
+            "Project",
+            "Budget period",
+            "Entry type",
+            "Obligation reference",
+            "Allocation or commitment (EUR)",
+            "Settled (EUR)",
+            "Refunded (EUR)"
+          ],
+          "records": 3,
+          "last_row": "Budget!A8:I8"
+        },
+        "Review ledger": {
+          "headers": [
+            "Decision reference",
+            "Arrival batch",
+            "Subject type",
+            "Subject reference",
+            "Revision",
+            "Review roles",
+            "Reviewer",
+            "Outcome",
+            "Reason",
+            "Repair requested",
+            "Source revisions",
+            "Affected fields",
+            "Decision time (UTC)"
+          ],
+          "records": 307,
+          "last_row": "Review ledger!A312:M312"
+        },
+        "Review packets": {
+          "headers": [
+            "Decision reference",
+            "Employee ID",
+            "Trip reference",
+            "Business purpose",
+            "Client",
+            "Schedule coverage",
+            "Alternatives considered",
+            "Permit reference",
+            "Expense references",
+            "Policy revision",
+            "Budget record references",
+            "Reviewed estimate (EUR)",
+            "Budget owner position",
+            "Trip revision",
+            "Permit revision",
+            "Travel cancellation references"
+          ],
+          "records": 307,
+          "last_row": "Review packets!A312:P312"
+        },
+        "Finance activity": {
+          "headers": [
+            "Activity reference",
+            "Arrival batch",
+            "Activity type",
+            "Request reference",
+            "Claim reference",
+            "Finance officer",
+            "Payee ID",
+            "Currency",
+            "Amount (EUR)",
+            "Original activity reference",
+            "Obligation (EUR)",
+            "Reason",
+            "Activity time (UTC)"
+          ],
+          "records": 220,
+          "last_row": "Finance activity!A225:M225"
+        },
+        "Travel cancellations": {
+          "headers": [
+            "Cancellation activity reference",
+            "Cancellation reference",
+            "Action",
+            "Cancelled subject",
+            "Trip reference",
+            "Trip revision",
+            "Permit reference",
+            "Permit revision",
+            "Initiation activity reference",
+            "Acting employee or supervisor",
+            "Activity time (UTC)",
+            "Effective time (UTC)",
+            "Arrival batch",
+            "Business reason"
+          ],
+          "records": 9,
+          "last_row": "Travel cancellations!A14:N14"
+        }
+      },
+      "provider_modified_time": "2026-09-12T02:58:09.286Z",
+      "verified_coverage": {
+        "People": {
+          "headers": [
+            "Employee ID",
+            "Department",
+            "Project",
+            "Budget period",
+            "Payee ID",
+            "Administration reviewer",
+            "Budget owner",
+            "Supervisor",
+            "Director",
+            "Finance officer"
+          ],
+          "records": 14,
+          "last_row": "People!A19:J19"
+        },
+        "Trips": {
+          "headers": [
+            "Trip reference",
+            "Employee ID",
+            "Destination",
+            "International",
+            "Start date",
+            "End date",
+            "First commitment date",
+            "Estimate (EUR)",
+            "Business purpose",
+            "Client",
+            "Schedule coverage",
+            "Alternatives considered",
+            "Permit reference",
+            "Trip revision",
+            "Permit revision"
+          ],
+          "records": 123,
+          "last_row": "Trips!A128:O128"
+        },
+        "Merchant payments": {
+          "headers": [
+            "Transaction reference",
+            "Expense reference",
+            "Employee ID",
+            "Trip reference",
+            "Currency",
+            "Gross amount",
+            "Paid date",
+            "Payment status",
+            "Receipt reference"
+          ],
+          "records": 201,
+          "last_row": "Merchant payments!A206:I206"
+        },
+        "FX": {
+          "headers": [
+            "Rate reference",
+            "Rate date",
+            "Currency",
+            "EUR per currency unit"
+          ],
+          "records": 2,
+          "last_row": "FX!A7:D7"
+        },
+        "Caps": {
+          "headers": [
+            "Cap reference",
+            "Destination",
+            "Category",
+            "Currency",
+            "Effective from",
+            "Effective to",
+            "Amount per unit"
+          ],
+          "records": 2,
+          "last_row": "Caps!A7:G7"
+        },
+        "Budget": {
+          "headers": [
+            "Ledger reference",
+            "Department",
+            "Project",
+            "Budget period",
+            "Entry type",
+            "Obligation reference",
+            "Allocation or commitment (EUR)",
+            "Settled (EUR)",
+            "Refunded (EUR)"
+          ],
+          "records": 3,
+          "last_row": "Budget!A8:I8"
+        },
+        "Review ledger": {
+          "headers": [
+            "Decision reference",
+            "Arrival batch",
+            "Subject type",
+            "Subject reference",
+            "Revision",
+            "Review roles",
+            "Reviewer",
+            "Outcome",
+            "Reason",
+            "Repair requested",
+            "Source revisions",
+            "Affected fields",
+            "Decision time (UTC)"
+          ],
+          "records": 307,
+          "last_row": "Review ledger!A312:M312"
+        },
+        "Review packets": {
+          "headers": [
+            "Decision reference",
+            "Employee ID",
+            "Trip reference",
+            "Business purpose",
+            "Client",
+            "Schedule coverage",
+            "Alternatives considered",
+            "Permit reference",
+            "Expense references",
+            "Policy revision",
+            "Budget record references",
+            "Reviewed estimate (EUR)",
+            "Budget owner position",
+            "Trip revision",
+            "Permit revision",
+            "Travel cancellation references"
+          ],
+          "records": 307,
+          "last_row": "Review packets!A312:P312"
+        },
+        "Finance activity": {
+          "headers": [
+            "Activity reference",
+            "Arrival batch",
+            "Activity type",
+            "Request reference",
+            "Claim reference",
+            "Finance officer",
+            "Payee ID",
+            "Currency",
+            "Amount (EUR)",
+            "Original activity reference",
+            "Obligation (EUR)",
+            "Reason",
+            "Activity time (UTC)"
+          ],
+          "records": 220,
+          "last_row": "Finance activity!A225:M225"
+        },
+        "Travel cancellations": {
+          "headers": [
+            "Cancellation activity reference",
+            "Cancellation reference",
+            "Action",
+            "Cancelled subject",
+            "Trip reference",
+            "Trip revision",
+            "Permit reference",
+            "Permit revision",
+            "Initiation activity reference",
+            "Acting employee or supervisor",
+            "Activity time (UTC)",
+            "Effective time (UTC)",
+            "Arrival batch",
+            "Business reason"
+          ],
+          "records": 9,
+          "last_row": "Travel cancellations!A14:N14"
+        }
+      }
+    },
+    {
+      "source_id": "policy-native",
+      "url": "https://private-pecorino-70e.notion.site/Project-D-Alderbridge-travel-reimbursement-policy-POL-2026-1-3d80b700541e81ed93ebd386abc1dcb0",
+      "path": null,
+      "sha256": null,
+      "status": "unavailable",
+      "error": "Notion object_not_found / HTTP404",
+      "locator": "Entire policy page",
+      "observed_at": "2026-10-17T21:03:36Z",
+      "version": null,
+      "acquisition_method": "supported Notion exact UUID fetch",
+      "completeness": "No native content; explicit manual copy required"
+    },
+    {
+      "source_id": "policy-manual",
+      "path": "inputs/policy-manual.md",
+      "sha256": "f547ee77729be8ad431a5ddf2e2907f94f29ad50092231191abd2f72c04f54d2",
+      "status": "read",
+      "error": null,
+      "url": "https://private-pecorino-70e.notion.site/Project-D-Alderbridge-travel-reimbursement-policy-POL-2026-1-3d80b700541e81ed93ebd386abc1dcb0",
+      "locator": "Complete owner-supplied manual policy",
+      "observed_at": "2026-10-17T21:05:57.624718+00:00",
+      "version": "POL-2026.2",
+      "acquisition_method": "manual_file",
+      "origin": "policy/POL-2026.2.md",
+      "export_time": null,
+      "live_equivalence": "unverified"
+    },
+    {
+      "source_id": "sequencing",
+      "path": "inputs/sequencing.md",
+      "sha256": "c0f0a12942bd52a3c7ee215fbd42aa87eb60cadea8c5ba9887b648398e30c56e",
+      "status": "read",
+      "error": null,
+      "url": null,
+      "locator": "Owner-confirmed interview sequencing evidence",
+      "observed_at": "2026-10-17T21:05:57.624957+00:00",
+      "version": null,
+      "acquisition_method": "supplemental_local_evidence",
+      "origin": "interviews/interview-D-4.md"
+    }
+  ],
+  "provenance_note": "Acquisition observations are operator/tool assertions; byte hashes do not authenticate remote origin. Offline retained-input recomputation; no fresh native access attempted or claimed.",
+  "origin_run_id": "g3-20261017",
+  "retained_from": "/tmp/project-d-recovery-ynggq285/g3-20261017",
+  "reconstructed_at": "2026-10-17T21:06:44.315098+00:00"
+}

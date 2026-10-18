@@ -1,0 +1,54 @@
+{
+  "case": "Synthetic snapshot damage to a temporary copy of complete actual four-batch run; no business input mutation",
+  "original_run": "artifacts/runs/g3-20261017",
+  "original_final_snapshot_sha256": "b3874208492960f9e436722806967b49fe515e166b968cccee09b618d28798ab",
+  "damaged_copy_retained": false,
+  "damaged_copy_note": "Temporary copy removed after the check. Reproduce by copying the original preserving its basename and replacing batches/4.json with invalid JSON. Original retained source/event bytes remain unchanged.",
+  "resume_exit": 1,
+  "resume_diagnostic": "{\n  \"outcome\": \"failure\",\n  \"error\": \"Cannot resume missing/corrupt state or inconsistent outputs: Expecting property name enclosed in double quotes: line 1 column 2 (char 1). Use recover with a NEW run-id.\"\n}\n\n",
+  "recovery_exit": 2,
+  "recovery_result": {
+    "outcome": "partial",
+    "run": "/home/mike/travel-expense-claim/artifacts/runs/g3-20261017-recovery",
+    "mode": "offline-recovery",
+    "verification": {
+      "status": "verified",
+      "run_id": "g3-20261017-recovery",
+      "snapshots": 4,
+      "current_claims": 121,
+      "checks": [
+        "public schema + formats",
+        "retained byte hashes",
+        "relative source/predecessor chain",
+        "money/event and issue/decision/request references",
+        "CSV/report/queue consistency"
+      ],
+      "scope": "Structural/semantic integrity; owner acceptance is separate from verification"
+    },
+    "limitations": [
+      "Unresolved cases are owned operational outcomes",
+      "G3 final owner review and handoff acceptance pending",
+      "Native Notion policy unavailable; manual policy export time unknown and live equivalence unverified"
+    ]
+  },
+  "comparisons_to_intact_original": [
+    {
+      "batch_id": "1",
+      "equivalent_to_intact_original": true
+    },
+    {
+      "batch_id": "2",
+      "equivalent_to_intact_original": true
+    },
+    {
+      "batch_id": "3",
+      "equivalent_to_intact_original": true
+    },
+    {
+      "batch_id": "4",
+      "equivalent_to_intact_original": true
+    }
+  ],
+  "original_run_unchanged": true,
+  "observed_at": "2026-10-17T21:06:48.966236+00:00"
+}

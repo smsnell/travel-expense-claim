@@ -38,7 +38,7 @@ class SourceIOTests(unittest.TestCase):
 
     def prepare(self):
         self.handoff_path.write_text(json.dumps(self.handoff))
-        return s.prepare_sources(self.handoff_path, self.run, ROOT / 'policy/POL-2026.2.md', ROOT / 'interviews/interview-D-3.md')
+        return s.prepare_sources(self.handoff_path, self.run, ROOT / 'policy/POL-2026.2.md', ROOT / 'interviews/interview-D-4.md')
 
     def test_retains_and_parses_complete_discovery_bytes(self):
         manifest = self.prepare()

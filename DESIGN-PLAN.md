@@ -1,4 +1,4 @@
-# Project D design plan — G2 accepted; G3 final review boundary
+# Project D design plan — all gates accepted within documented limitations
 
 The owner approved the Python architecture, three gates and D1–D3 on October 17; G1 implementation is authorized after a planning baseline commit. G1 and D4 are now accepted after owner inspection; G2 is authorized after the G1 milestone commit/push. [AGENTS.md](AGENTS.md), [REQUIREMENTS.md](REQUIREMENTS.md), and [snapshot.schema.json](snapshot.schema.json) remain authoritative; this document records findings, design choices, and acceptance boundaries rather than repeating their contracts. Progress, ownership, and resource accounting live in [PROJECT-TRACKER.md](PROJECT-TRACKER.md).
 
@@ -6,9 +6,9 @@ The owner approved the Python architecture, three gates and D1–D3 on October 1
 
 The repository has the starter README/schema, owner instructions/requirements, and four preserved progressive interview exports plus an owner-provided policy backup; implementation began after planning baseline `5c9558ae360b8bde28c50e9923d4144037570136`. Existing untracked files were preserved. Baseline commit: `e165069959620e5635f4c2afa08613fe0d1395dc`.
 
-**I1:** [Original interview](interviews/interview-D-1.md), exported October 16, 2026 at 15:53:23, participant Stephen Snelling, visible exchange 15:08–15:53. The file includes metadata and the closing exchange. It names five sources but contains only three distinct native URLs. Its initial source gaps are updated below.
+**I1:** [Original interview](https://github.com/smsnell/travel-expense-claim/blob/54cda8120dbb2cbe66a68702518eed7eff6d8634/interviews/interview-D-1.md), exported October 16, 2026 at 15:53:23, participant Stephen Snelling, visible exchange 15:08–15:53. The file includes metadata and the closing exchange. It names five sources but contains only three distinct native URLs. Its initial source gaps are updated below.
 
-**I2:** [Follow-up export](interviews/interview-D-2.md), exported October 16 at 17:31:55. Its earlier message body is identical to I1, with a 17:26–17:31 continuation and new export timestamp. It appears to be the later complete export of the same session, not an independent second interview. Preserve both originals; identify I2 as the candidate final session export at submission, subject to owner confirmation. Provider-level completeness remains unverified. I2 17:28 confirms the URL slug and `POL-2026.2` are the same active policy; 17:28–29 explains `DW-D-2` as the integrated workflow contract, with no separate document to obtain.
+**I2:** [Follow-up export](https://github.com/smsnell/travel-expense-claim/blob/54cda8120dbb2cbe66a68702518eed7eff6d8634/interviews/interview-D-2.md), exported October 16 at 17:31:55. Its earlier message body is identical to I1, with a 17:26–17:31 continuation and new export timestamp. It appears to be the later complete export of the same session, not an independent second interview. Preserve both originals; identify I2 as the candidate final session export at submission, subject to owner confirmation. Provider-level completeness remains unverified. I2 17:28 confirms the URL slug and `POL-2026.2` are the same active policy; 17:28–29 explains `DW-D-2` as the integrated workflow contract, with no separate document to obtain.
 
 Discovery evidence is retained under [artifacts/discovery/2026-10-16](artifacts/discovery/2026-10-16/access-check.json). These are dated observations, not run inputs approved for silent reuse. The access record binds retained files and original-file hashes. Readable connector extracts supplement the native PDF/XLSX; they do not replace their precision or layout. No business run was executed. Follow-up evidence and original-byte hashes are retained separately in the [2026-10-17 access record](artifacts/discovery/2026-10-17/access-check.json); the October 16 observations are preserved. S1/S2 were cross-referenced from that dated retained evidence in this design pass, not represented as fresh reads.
 
@@ -113,7 +113,7 @@ Use separate worktrees for genuinely independent parallel tasks, based on the co
 
 ## Current boundary
 
-Owner accepted G1 and D4; milestone `2bd09d3` (“G1 Complete and Reviewed”) is pushed. G2 is accepted by the owner. Complete the focused C18/human-authority checks and exposure summary, commit/push “G2 Complete and Accepted”, then perform G3 and stop for final review. Keep native policy access limitations visible; I4 resolves the blanket sequencing blocker. Retrieval responsibilities and reproducibility are specified in [SOURCE-RETRIEVAL.md](SOURCE-RETRIEVAL.md). G3 authorization does not imply final acceptance.
+Owner accepted G1 and D4; milestone `2bd09d3` (“G1 Complete and Reviewed”) is pushed. G2 is accepted by the owner. Focused C18/human-authority checks and the exposure summary are included in pushed milestone54cda812 (“G2 Complete and Accepted”). G3 final-source/snapshot/replay/recovery/handoff checks pass and await final owner review. Keep native policy access limitations visible; I4 resolves the blanket sequencing blocker. Retrieval responsibilities and reproducibility are specified in [SOURCE-RETRIEVAL.md](SOURCE-RETRIEVAL.md). G3 authorization does not imply final acceptance.
 
 ## Historical preliminary G1 review evidence — October 17
 
@@ -136,3 +136,11 @@ The agreed Python architecture remains. `engine.py` retains policy/authority che
 G2 acceptance remains the checks and inspection boundary above. Unresolved cases are owned outcomes, not omitted scope. Native policy access still returns 404; manual provenance limitations remain explicit. G3 will validate the final fresh integrated invocation, Operations usability and handoff after G2 review; no new broad planning pass is needed.
 
 G2 acceptance follow-up: preserve C18’s original REQ-C18/T18 transfer and require authorized Finance disposition before replacement payment can proceed. `closed-reimbursed` is a derived evidence state, never an agent-issued approval. Presentation version 4 separates payable amounts, gross known held entitlements, unknown totals, supported lines within unknown claims, unreconciled transfers and unsettled accepted commitments; overlapping categories are not summed. The accepted original G2 run remains immutable; [linked revised view](artifacts/runs/g2-accepted-20261017/report.md) is explicitly offline.
+
+## G3 verification and final review
+
+[Final handoff evidence](artifacts/verification/g3-20261017/README.md) links the freshly bound complete run, independent inspection, 56 passing tests, replay/recovery, source comparison and actual supported checkpoint references. The new native XLSX export differs in packaging but all normalized source values/locators match; PDFs match prior bytes. Native Notion remains404 and manual equivalence unverified. No material defect or financial-rule change arose. The final result retains all unresolved cases under accepted D4. G3 is technically verified, not owner-accepted; local G3 evidence/docs are uncommitted pending final review.
+
+## Submission acceptance
+
+Owner accepted G3 and authorized final commit/push, retaining14 unresolved claims and the unverified manual Notion-policy limitation for facilitator review. Acceptance is external to sealed run evidence; original reports/snapshots retain their historical review state and exact hashes. D-4 is selected as the unchanged final session export. Earlier progressive exports are removed only from the current tree; [historical index](interviews/README.md) preserves exact original bytes and citations. [Submission index](SUBMISSION.md) maps required deliverables and capture retrieval.

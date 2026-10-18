@@ -1,0 +1,26 @@
+{
+  "run_id": "g2-accepted-20261017",
+  "path": "/home/mike/travel-expense-claim/artifacts/runs/g2-accepted-20261017",
+  "source_manifest_sha256": "0fb05afcafa0ad4cfb6f7d1d2113d4208a982c2379469bb2552181c3e5ef8f92",
+  "snapshots": [
+    {
+      "batch_id": "1",
+      "sha256": "4f2852a0b2faca64eec83dc59c1b96bf4fbd4f83add436fb6849f1a03eb56bb2"
+    },
+    {
+      "batch_id": "2",
+      "sha256": "6ed8f7f444fd2206b4513e811e0d418a2d545eaf0c87b7ac96e7836f3b58a38a"
+    },
+    {
+      "batch_id": "3",
+      "sha256": "c68facddd1f9ac7b87618a41abbf1c0e762ccd3c775eb8e2d0ca6340851e8432"
+    },
+    {
+      "batch_id": "4",
+      "sha256": "5e5bc8e0aaad0f917c1c8484df4ee4af50f875660c767daa67a860f6a570e21b"
+    }
+  ],
+  "reason": "G3 final fresh-source binding and integrated handoff verification after accepted G2",
+  "mode": "fresh linked recomputation",
+  "linked_at": "2026-10-17T21:05:58.043213+00:00"
+}

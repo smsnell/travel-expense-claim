@@ -1,0 +1,36 @@
+{
+  "commit": "54cda8120dbb2cbe66a68702518eed7eff6d8634",
+  "checkpoint_id": "01M55TSTHMV18SHMSJFQH01PN5",
+  "checkpoint_ref": "refs/entire/checkpoints/N5/01M55TSTHMV18SHMSJFQH01PN5",
+  "session_id": "01a14681-0065-7df3-b331-ffdf97873ed5",
+  "actual_capture_files": [
+    "0/full.jsonl",
+    "0/transcript.jsonl",
+    "0/metadata.json",
+    "0/content_hash.txt"
+  ],
+  "primary_cumulative_counter": {
+    "timestamp": "2026-10-17T21:03:06.438Z",
+    "usage": {
+      "input_tokens": 16896995,
+      "cached_input_tokens": 16123520,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 123557,
+      "reasoning_output_tokens": 21393,
+      "total_tokens": 17020552
+    }
+  },
+  "known_delegate_checkpoint_ref": "refs/entire/checkpoints/ZM/01M55M176JXWCGAAC3B1BBQCZM",
+  "known_delegate_usage": {
+    "input_tokens": 101697,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 3118464,
+    "output_tokens": 20682,
+    "api_call_count": 55
+  },
+  "known_delegate_subtotal": 3240843,
+  "measured_primary_plus_known_delegate_subtotal": 20261395,
+  "newly_accounted_since_old_2052458_baseline": 18208937,
+  "scope": "Native primary total is cumulative and includes cached input; do not add cache_read again or sum overlapping checkpoint usage. Known delegate metadata is separate from primary. Missing delegate coverage and primary work after the last captured counter remain unknown. Newly accounted usage includes earlier work, not just this turn. Unrelated setup-test session excluded.",
+  "capture_limit": "Actual supported checkpoint exists and commit trailer points to it; push reports checkpoint refs. Owner retains final coverage/remote-access verification; G3 artifacts are uncommitted."
+}

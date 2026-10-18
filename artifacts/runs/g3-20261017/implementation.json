@@ -1,0 +1,45 @@
+{
+  "gate": "G2",
+  "files": [
+    {
+      "path": "skills/travel-expense-claim/scripts/engine.py",
+      "sha256": "48a733668b441c685058a84f1cf68d45ccac5531805ef920fa500255ffce57c8"
+    },
+    {
+      "path": "skills/travel-expense-claim/scripts/g1_legacy_outputs.py",
+      "sha256": "674090fb25f5f78b64484388e019ee2fed0aef106d3e182ae5ad2a51290ecc9c"
+    },
+    {
+      "path": "skills/travel-expense-claim/scripts/outputs.py",
+      "sha256": "8a39f2622300d54d37a4df45b5b26f88c5e714a608157edc2ea22ac8860f1c2d"
+    },
+    {
+      "path": "skills/travel-expense-claim/scripts/run.py",
+      "sha256": "c11fd410eaabd90a45a57b18a72df0c451b316a6075229ebfa8c90f898512b95"
+    },
+    {
+      "path": "skills/travel-expense-claim/scripts/source_io.py",
+      "sha256": "89a673e952a41a9111370003394736b9fb13e6eb4e7accccf89e2ca9f23e5fbe"
+    },
+    {
+      "path": "skills/travel-expense-claim/scripts/workflow.py",
+      "sha256": "894a34c50cebc9977512dcffacb3f628de669ff269730092d1d47ee8eaa2cde5"
+    }
+  ],
+  "schema_sha256": "108176da5e8fca8daa73e1924d33b6c3ad0feab3bd6dce443a28983a6ac45c19",
+  "requirements_sha256": "9f252235ff3af2a694c32e5b442eaec8a0c0365f2acd9232e9405599dbac831a",
+  "python": "3.14.4",
+  "dependencies": {
+    "pypdf": "6.1.1",
+    "openpyxl": "3.1.5",
+    "jsonschema": "4.26.0",
+    "attrs": "26.1.0",
+    "jsonschema-specifications": "2025.9.1",
+    "referencing": "0.37.0",
+    "rpds-py": "2026.9.1",
+    "et-xmlfile": "2.0.0"
+  },
+  "rule_profile": "POL-2026.2 + interview-D-4",
+  "preliminary_closure": false,
+  "observed_at": "2026-10-17T21:05:58.057653+00:00"
+}

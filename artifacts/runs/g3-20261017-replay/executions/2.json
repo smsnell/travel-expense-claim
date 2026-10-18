@@ -1,0 +1,7 @@
+{
+  "batch_id": "2",
+  "sealed_at": "2026-10-17T21:06:46.417292+00:00",
+  "mode": "offline-replay",
+  "snapshot_sha256": "17e448deb69a911e9d589154d7c72301b6d6abc8f43c440281b38686042e5998",
+  "note": "Actual reconstruction time; source business/event/observation times preserved"
+}

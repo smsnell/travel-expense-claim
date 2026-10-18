@@ -1,0 +1,6 @@
+{
+  "command": "recover",
+  "run_dir": "/tmp/project-d-recovery-ynggq285/g3-20261017",
+  "through_batch": 4,
+  "change_reason": "G3 recovery demonstration from a deliberately corrupt temporary copy; original g3-20261017 unchanged"
+}

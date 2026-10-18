@@ -1,0 +1,26 @@
+{
+  "run_id": "g3-20261017",
+  "path": "/home/mike/travel-expense-claim/artifacts/runs/g3-20261017",
+  "source_manifest_sha256": "c1733bf8ba017dc21d1f0855a963196e6693c3493ecd297573a688e285d4d9c6",
+  "snapshots": [
+    {
+      "batch_id": "1",
+      "sha256": "ff6cae9569bb4e5de257ab4df451b0f328e99b93463ea6557a32529092b52abf"
+    },
+    {
+      "batch_id": "2",
+      "sha256": "e0002a2a886c5a5c3b8fb62e6620b6669bbeb0282364d38f93d38cb2ab474904"
+    },
+    {
+      "batch_id": "3",
+      "sha256": "b68e4da208d381f021936a963cab289e106cd1737bba66d03c8d8aedf2175abf"
+    },
+    {
+      "batch_id": "4",
+      "sha256": "b3874208492960f9e436722806967b49fe515e166b968cccee09b618d28798ab"
+    }
+  ],
+  "reason": "Final G3 unchanged offline replay of all four freshly bound batches",
+  "mode": "offline-replay",
+  "linked_at": "2026-10-17T21:06:43.409178+00:00"
+}

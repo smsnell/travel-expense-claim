@@ -1,0 +1,36 @@
+{
+  "command": "run",
+  "acquisition": {
+    "path": "/home/mike/travel-expense-claim/artifacts/acquisitions/g3-20261017/acquisition.json",
+    "sha256": "c12eda39d49f1d16eb9283fafeda2c0351422e8320f140684891cf85210f4cbe",
+    "retained_byte_identity": [
+      {
+        "source_id": "initial",
+        "sha256": "b42a28754b1877363e1a25ed4fa1f3865915f44ec9995f7ed15fc9b6eefb08b7"
+      },
+      {
+        "source_id": "updates",
+        "sha256": "03c15787d18e2928457cd0164b573dc03a3baade0ed26a391ba79c73a568da3b"
+      },
+      {
+        "source_id": "receipts",
+        "sha256": "4c3dc47f187ccc5cdd0112e18afaadd3b6363bbb4d96793205ef8f3d4c06fcc8"
+      },
+      {
+        "source_id": "registers",
+        "sha256": "7599926f932bdb984aca0da8c8adaeddbc602bb83a640e7f2360522b95a9434f"
+      }
+    ]
+  },
+  "policy_file": {
+    "path": "/home/mike/travel-expense-claim/policy/POL-2026.2.md",
+    "sha256": "f547ee77729be8ad431a5ddf2e2907f94f29ad50092231191abd2f72c04f54d2"
+  },
+  "sequencing_file": {
+    "path": "/home/mike/travel-expense-claim/interviews/interview-D-4.md",
+    "sha256": "c0f0a12942bd52a3c7ee215fbd42aa87eb60cadea8c5ba9887b648398e30c56e"
+  },
+  "through_batch": 4,
+  "prior_run": "/home/mike/travel-expense-claim/artifacts/runs/g2-accepted-20261017",
+  "change_reason": "G3 final fresh-source binding and integrated handoff verification after accepted G2"
+}
