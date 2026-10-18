@@ -40,3 +40,5 @@ The example identifies the preserved G2 code checkpoint; use the final submitted
 ## Final review scope
 
 Final diff review excludes virtual environments, bytecode, temporary download configurations/URLs, credentials, local capture scratch files and unrelated work. Original sealed run hashes are checked unchanged. D-4 and protected requirements/schema/instructions/policy are unchanged; historical interview paths resolve at preserved G2 history. G3 remains an explicitly limited source result even though the owner has accepted delivery. No further work is requested unless submission verification reveals a material issue.
+
+Verified submission milestone: **3ccbd311c030a09bbd2a302556937421518f091b** (“G3 Complete and Accepted”). Actual remote checkpoint: **01M56GH2Y8R2YNXQCTZH64RAMT**, ref `refs/entire/checkpoints/MT/01M56GH2Y8R2YNXQCTZH64RAMT`, session `01a14681-0065-7df3-b331-ffdf97873ed5`. [Remote retrieval evidence](artifacts/verification/submission-20261018/remote-verification.json) confirms payloads and original historical interviews. A documentation follow-up records these observations; its final revision/checkpoint is given in the final handoff.
